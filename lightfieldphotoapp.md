@@ -139,8 +139,23 @@ Täältä voi myös muuttaa resoluutiota. Helppo tapa renderöidä suuremmalla t
 ![](/Assets/LightfieldPhotoApp/Dia30.JPG)
 - Tallenna Quilt-kuva painamalla Save Quilt.
 
-![]()
+![](/Assets/LightfieldPhotoApp/quilt-esimerkki.jpg)
 - Valmis Quilt näyttää tältä.
+
+### Omia tuotoksiani.
+
+![](https://github.com/petri1807/LookingGlass/blob/master/Assets/LightfieldPhotoApp/quilt-Iittalaparatiisi.jpg)
+- Iittala Paratiisi-sarjan kahvimuki. Photogrammetrian avulla aidosta kahvikupista kaapattu tekstuuri.
+
+![](https://github.com/petri1807/LookingGlass/blob/master/Assets/LightfieldPhotoApp/quilt-aaltovaasi.jpg)
+- Iittala Aalto/savoy maljakko.
+
+![](https://github.com/petri1807/LookingGlass/blob/master/Assets/LightfieldPhotoApp/quilt-ruusulaakso.jpg)
+- Ruusulaakson paviljonki Aulangolla, Hämeenlinnassa. Kivijalka tehty photogrammetrialla, kaikki muu käsin.
+
+![](https://github.com/petri1807/LookingGlass/blob/master/Assets/LightfieldPhotoApp/quilt-karhuluola.jpg)
+- Karhut-patsas Aulangolla, Hämeenlinnassa. Photogrammetrialla tehty malli. 
+
 
 Quilt-kuvia voi avata menemällä Quilts-välilehdelle. Quilt kuvien avaus on huomattavasti nopeampaa, mutta muokkaus ei enää onnistu.
 
