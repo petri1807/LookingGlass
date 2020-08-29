@@ -12,7 +12,7 @@
 
 [**Tarvittavien sovellusten asennus**](https://github.com/petri1807/LookingGlass#tarvittavien-sovellusten-asennus)
 
-[**https://github.com/petri1807/LookingGlass#miten-lasi-toimii**](https://github.com/petri1807/LookingGlass#miten-lasi-toimii)
+[**Miten lasi toimii**](https://github.com/petri1807/LookingGlass#miten-lasi-toimii)
 
 
 
