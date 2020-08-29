@@ -139,6 +139,34 @@ Sovelluksen voi ladata osoitteesta https://lookingglassfactory.com/devtools/3d-m
 | Ympyränäppäin näytöllä | Pyöritä mallia |
 
 
+Load Model - Lataa malli.
+Remove Model – Poista malli. 
+
+##### OBJECT
+Metallic / Specular / Vertex Color - Shaderin valinta.
+Render Back Faces - Näyttää malleissa pinnat myös ns. väärätä puolelta. Jos valinta ei ole päällä, takapuolelta katsottuna pinnasta näkee läpi. Eli facen normal suunta määrittää tämän.
+Mesh Detail - Mallin tarkkuus prosentteina. Jos ohjelma pyörii heikosti raskaalla mallilla, aseta tähän pienempi luku ja paina SET. 
+Glossiness – Mallin pinnan kiiltävyys asteikolla 0-1. Tämä korvataan Metallic ja Roughness arvoilla kun malli on ladattu.
+Jos tiedosto on .obj tähän väliin tulee tekstuurien lataukset.
+Play Animation – Toista animaatio.
+Animation Speed – Animaation nopeus.
+
+##### LIGHTING
+Use backdrop – Käytä taustana valkoista seinää jos haluat varjojen heijastuvan pinnalle.
+Backdrop Distance – Taustan etäisyys mallista. 
+Horizontal / Vertical Angle – Valon sijainti vaaka sekä pystyakselilla.
+Directional / Ambient Intensity – Valon voimakkuus kohdistettuna / ympäristöstä.
+POST-PROCESSING
+DoF / AO / Bloom Intensity – Depth of Field, Ambient Occlusion ja Bloom efektien voimakkuus.
+
+##### QUALITY SETTINGS
+Quilt Resolution – Resoluution säätö. 8K on raskain pyörittää mutta näyttää parhaalta. 
+Optimization – Mallin optimointi. Joidenkin mallien kohdalla suorituskyky heikentyy tämän ollessa päällä. Käytä jos siitä on hyötyä. 
+Post-processing – Depth of Field, Ambient Occlusion ja Bloom efektien aktivointi.
+FPS-laskin kertoo kuinka hyvin kyseinen malli pyörii.
+Model Loading – Jos mallin tuominen epäonnistui sen suuren koon takia, aseta Timeout kohtaan suurempi arvo. Luku on 10–360 sekuntia kuinka kauan mallia sallitaan ladata. 
+
+
 ### Holoplay Unity SDK
 
 ....
