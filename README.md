@@ -126,7 +126,7 @@ Sovelluksen voi ladata osoitteesta https://lookingglassfactory.com/devtools/3d-m
 
 3D Model Importer mahdollistaa 3D mallin esittämisen hologrammilasilla helposti ja nopeasti. Mallia voi ohjailla hiirellä tai Leap Motion-liikeohjaimella. Tiedoston täytyy olla .gltf , .glb,  tai .obj muodossa. Animaatiot ovat tuettuja .gltf ja .glb tiedostoissa. Valaistusta voi muokata itse melko rajallisesti. Käytössä on vain kaksi valonlähdettä, kohdistettu valo sekä ”ambient” valaistus.
 
-**Kontrollit**
+#### Kontrollit
 
 | Painike | Toiminto |
 |---|---|
@@ -138,18 +138,23 @@ Sovelluksen voi ladata osoitteesta https://lookingglassfactory.com/devtools/3d-m
 | Neliönäppäin näytöllä | Näyttää/piilottaa menun |
 | Ympyränäppäin näytöllä | Pyöritä mallia |
 
+#### Asetukset
 
-Load Model - Lataa malli.
-Remove Model – Poista malli. 
+![Asetukset-kuva]()
 
-##### OBJECT
-Metallic / Specular / Vertex Color - Shaderin valinta.
-Render Back Faces - Näyttää malleissa pinnat myös ns. väärätä puolelta. Jos valinta ei ole päällä, takapuolelta katsottuna pinnasta näkee läpi. Eli facen normal suunta määrittää tämän.
-Mesh Detail - Mallin tarkkuus prosentteina. Jos ohjelma pyörii heikosti raskaalla mallilla, aseta tähän pienempi luku ja paina SET. 
-Glossiness – Mallin pinnan kiiltävyys asteikolla 0-1. Tämä korvataan Metallic ja Roughness arvoilla kun malli on ladattu.
-Jos tiedosto on .obj tähän väliin tulee tekstuurien lataukset.
-Play Animation – Toista animaatio.
-Animation Speed – Animaation nopeus.
+| Nimi | Kuvaus |
+|---|---|
+| Load Model | Lataa malli |
+| Remove Model | Poista malli |
+
+| **OBJECT** |  |
+| Metallic / Specular / Vertex Color | Shaderin valinta |
+| Render Back Faces | Näyttää malleissa pinnat myös ns. väärätä puolelta. Jos valinta ei ole päällä, takapuolelta katsottuna pinnasta näkee läpi. Eli facen normal suunta määrittää tämän |
+| Mesh Detail | Mallin tarkkuus prosentteina. Jos ohjelma pyörii heikosti raskaalla mallilla, aseta tähän pienempi luku ja paina SET |
+| Glossiness | Mallin pinnan kiiltävyys asteikolla 0-1. Tämä korvataan Metallic ja Roughness arvoilla kun malli on ladattu |
+| Jos tiedosto on .obj tähän väliin tulee tekstuurien lataukset | |
+| Play Animation | Toista animaatio |
+| Animation Speed | Animaation nopeus |
 
 ##### LIGHTING
 Use backdrop – Käytä taustana valkoista seinää jos haluat varjojen heijastuvan pinnalle.
