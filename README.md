@@ -59,7 +59,7 @@ Hologrammilasin toiminta perustuu näytölle esitettävien 45 eri kuvakulman esi
 
 Alla oleva kuva havainnollistaa miten nämä 45 eri näkökulmaa esitetään lasille.
 -	**Keskellä** Looking Glass lintuperspektiivistä. Laatikko esittää lasin sisällä olevaa tilaa. Lasiin yhdistyvät mustat viivat havainnollistavat mistä näkökulmasta vasemmalla ja oikealla esitettävä kuva näkyy.
--	Looking Glassin **sisällä** on kuvassa esitettävä 3D-malli
+-	Looking Glassin **sisällä** on kuvassa esitettävä 3D-malli, ja keskellä menee punaisella viivalla esitetty zero parallax plane.
 -	**Oikealla** näkyy 2D-kuva jota kullekkin näkökulmalle esitetään. 
 -	**Vasemmalla** näkyy kaikista 45 kuvasta muodostettu ”Quilt”, jossa punainen laatikko havainnollistaa myös mikä kuva mistäkin näkökulmasta katsottuna näkyy.
 
@@ -69,6 +69,8 @@ Quilt tarkoittaa siis yhtä kuvatiedostoa jossa on tyypillisesti 5 kolumnia ja 9
 
 Tähän samaan toimintaan jokainen lasille kehitetty sovellus pyrkii. Oli kyseessä sitten quilt-kuvien esitykseen tarkoitettu Lightfield Photo App, selaimella näytettävä sisältö tai Unity/Unreal pelimoottoreilla esitettävä interaktiivinen sisältö, kaikki nämä jakavat sisältönsä quilt-kuviin jotka sitten esitetään näytölle.
 
-Quilt-kuva lasilla. Kameran linssille näkyy yhtäaikaisesti 5-6 kuvaa vaihtelevalla voimakkuudella. Tällöin lasia katsellessa kumpikin silmä näkee usean eri kuvan yhtäaikaisesti luoden sulavan kokemuksen päätä liikutettaessa sivulta toiselle. 
+Quilt-kuva lasilla. Kameran linssille näkyy yhtäaikaisesti 5-6 kuvaa vaihtelevalla voimakkuudella. Tällöin lasia katsellessa kumpikin silmä näkee usean eri kuvan yhtäaikaisesti luoden sulavan kokemuksen päätä liikutettaessa sivulta toiselle. Syvyyssuunnassa lasin keskellä on ns. zero parallax plane, eli kohta jossa kohde on tarkimmillaan eikä liiku. Tämän kohdan takana ja edessä kohteen osat liikkuvat luoden kolmiulotteisen efektin.
 
 ![On LKG](/Assets/on-lkg.gif)
+
+Aiheesta voi lukea lisää [How It Works](https://docs.lookingglassfactory.com/Appendix/how-it-works/)-sivulla. 
