@@ -1,6 +1,6 @@
 # Oman Unity-sovelluksen teko
 
-## Sisältö
+## [Vaiheet](#vaiheet)
 - a
 - b
 - c
