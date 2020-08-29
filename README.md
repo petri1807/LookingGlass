@@ -64,7 +64,7 @@ Joidenkin sovellusten kohdalla kolmen näytön käyttäminen samaan aikaan aiheu
 -	[3D Model Importer](https://lookingglassfactory.com/devtools/3d-model-importer)
 -	[Lightfield Photo App](https://lookingglassfactory.com/devtools/lightfield-photo-app) 
 -	[HoloPlay Unity SDK](https://lookingglassfactory.com/devtools/holoplay-unity-plugin)
--	[Leap Motion-kontrolleri](https://developer.leapmotion.com/setup/desktop)
+-	[Leap Motion-liikkeentunnistusohjain](https://developer.leapmotion.com/setup/desktop)
 
 ### Miten lasi toimii
 Hologrammilasin toiminta perustuu näytölle esitettävien 45 eri kuvakulman esittämisestä polarisoivan filtterin läpi, joka huijaa katsojan näköaistia havainnoimaan kolmiulotteisia objekteja lasin sisällä kahdella tavalla. 
@@ -122,7 +122,22 @@ Huonot puolet
 
 ### 3D Model Importer
 
-....
+Sovelluksen voi ladata osoitteesta https://lookingglassfactory.com/devtools/3d-model-importer
+
+3D Model Importer mahdollistaa 3D mallin esittämisen hologrammilasilla helposti ja nopeasti. Mallia voi ohjailla hiirellä tai Leap Motion-liikeohjaimella. Tiedoston täytyy olla .gltf , .glb,  tai .obj muodossa. Animaatiot ovat tuettuja .gltf ja .glb tiedostoissa. Valaistusta voi muokata itse melko rajallisesti. Käytössä on vain kaksi valonlähdettä, kohdistettu valo sekä ”ambient” valaistus.
+
+**Kontrollit**
+
+|Painike | Toiminto|
+|---|---|
+|Hiiren vasen | Pyöritä näkymää kiintopisteen ympäri|
+|Hiiren rulla | Zoomaus lähemmäs/kauemmas|
+|Hiiren oikea | Mallin liikuttaminen vaaka/pystysuunnassa|
+|Hiiren vasen tuplaklikkaus < Aseta kiintopiste|
+|Vasen/oikea nuolinäppäimet | Edellinen/seuraava malli|
+|Neliönäppäin näytöllä | Näyttää/piilottaa menun|
+|Ympyränäppäin näytöllä | Pyöritä mallia|
+
 
 ### Holoplay Unity SDK
 
