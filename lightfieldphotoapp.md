@@ -21,6 +21,8 @@ Tässä oppaassa käydään kädestä pitäen läpi vaiheet joilla voit itse luo
 
 ## Mallin tuonti blenderiin
 
+Ohjeet on järjestetty niin, että jokaisen kuvan alla on siihen liittyvät vaiheet.
+
 ![](https://github.com/petri1807/LookingGlass/blob/master/Assets/LightfieldPhotoApp/Dia3.JPG)
 - Avaa Blender. Valitse kuutio (hiiren vasen) ja poista se (X, hiiren vasemmalla tai Enter vahvistat komennon)
 
