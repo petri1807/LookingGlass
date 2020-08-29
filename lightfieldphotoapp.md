@@ -42,16 +42,18 @@ Tässä oppaassa käydään kädestä pitäen läpi vaiheet joilla voit itse luo
 - Muuta sivupaneelista kameran Z-rotation arvo nollaksi (korostettu punaisella, valitse arvo hiiren vasemmalla ja syötä arvoksi 0)
 
 ![](/Assets/LightfieldPhotoApp/Dia9.JPG)
-- Valitse Measure-työkalu. Tämä osio ei ole varsinaisesti tarpeellinen, mutta yritän tällä havainnollistaa optimaalisen 50° kulman jolta kamerat mallia katsovat. Hologrammilasin katselukulma on noin 40-50° joten yritetään pysyä samoilla linjoilla.
+- Valitse Measure-työkalu. Tämä osio ei ole varsinaisesti tarpeellinen, mutta yritän tällä havainnollistaa optimaalisen 50° kulman, jolta kamerat mallia katsovat. Hologrammilasin katselukulma on noin 40-50°, joten kamera. 
 
 ![](/Assets/LightfieldPhotoApp/Dia10.JPG)
-- Piirrä viivoittimella suora viiva vasemmalta oikealle (hiiren vasen), ja raahaa sitten viivan keskeltä (hiiren vasen) mallin päälle jolloin se muuttuu näyttämään kulman asteina. Raahaa molempia päitä niin että ne ovat yhtä kaukana mallin molemmin puolin ja mittari näyttää 50°
+- Piirrä viivoittimella suora viiva vasemmalta oikealle (hiiren vasen), ja raahaa sitten viivan keskeltä (hiiren vasen) mallin päälle jolloin se muuttuu näyttämään kulman asteina. Raahaa molempia päitä niin, että ne ovat yhtä kaukana mallin molemmin puolin ja mittari näyttää 50°.
 
 ![](/Assets/LightfieldPhotoApp/Dia11.JPG)
 - Siirrä kamera viivoittimen vasempaan reunaan (G, tai Move työkalupalkista)
 
 ![](/Assets/LightfieldPhotoApp/Dia12.JPG)
-- Siirry kameranäkymään (Numpad 0). Jos malli ei näy viewportissa syystä että se on todella pieni, laske kameraa alemmas Z-akselilla joko raahaamalla Z-location arvoa vasemmalle kunnes malli tulee näkyviin tai liikuttamalla kameraa (G), lukitsemalla siirron Z-akselille (Z) ja liikuttamalla hiirtä taakse.
+- Siirry kameranäkymään (Numpad 0). Jos mallisi on todella pieni, eikä näy viewportissa, laske kameraa alemmas Z-akselilla joko:
+  - rahaamalla Z-location arvoa vasemmalle kunnes malli tulee näkyviin
+  - liikuttamalla kameraa (G), lukitsemalla siirron Z-akselille (Z) ja liikuttamalla hiirtä taakse.
 
 ![](/Assets/LightfieldPhotoApp/Dia13.JPG)
 - Siirry kameranhallinta välilehdelle oikeasta laidasta ja muuta Focal Length-arvoa kunnes malli on kameran näkymän rajojen sisällä. Tämä arvo on kameroiden kulman kanssa tärkeä osa sitä miten malli esiintyy hologrammilasilla.
