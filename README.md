@@ -91,22 +91,23 @@ Lightfield Photo App toistaa lightfield-kuvia hologrammilasilla. Kuvasarjoja voi
 Quilt-kuvalla tarkoitetaan yhtä tiedostoa joka sisältää kaikki 32-45 kuvakulmaa 3D-mallista. Kuvasarjalla tarkoitetaan erillisiä kuvia joista voidaan rakentaa quilt.
 Quilt-kuvien etuna on niiden kompakti koko sekä jaettavuuden helppous kun kyseessä on vain yksi tiedosto. Kuvasarjojen etuna taas on muokattavuus, eli kuvan kroppausta ja tarkennusta on mahdollista muuttaa. Kuvasarjoista voidaan tallentaa erillinen quilt-kuva. 
 
-[**Lightfield Photo App**](/lightfieldphotoapp.md) osiosta löytyy ohjeet, jossa käydään läpi vaiheet miten omia quilt-kuvia voi tehdä helposti Blenderissä. Tähän voi käyttää mitä tahansa omaa tai netistä ladattua 3D mallia.
+[**Quilt-kuvien teko Blenderillä**](/lightfieldphotoapp.md) osiosta löytyy ohjeet, jossa käydään läpi vaiheet miten omia quilt-kuvia voi tehdä helposti Blenderissä. Tähän voi käyttää mitä tahansa omaa tai netistä ladattua 3D mallia.
 
 Ohjeeseen sisältyvät vaiheet:
--	Mallin teko tai importtaus
+-	Mallin tuominen blenderiin
 -	Kameroiden asettelu
--	Valaistuksen säätö
 -	RenderBurst lisäosan asennus
 -	Renderöinti
 -	Kuvien tuonti Lightfield Photo Appiin
 -	Kuvan rajaus ja tarkennus
 -	Quiltin tallennus
--	Protip: Denoiserin käyttö Cycles-rendermoottorilla
+- Denoiserin eli kohinan poistimen käyttö Cycles-rendermoottorilla
 
-Lightfield Photo Appin hyvät ja huonot puolet:
+Hyvät puolet:
 -	Realistisen sisällön tuottaminen suhteellisen helppoa jos 3D softat hallussa.
 -	Ei rajoituksia mallin tai valaistuksen monimutkaisuuden puolesta.
+
+Huonot puolet
 -	Staattinen sisältö. Videoiden toisto ei ole mahdollista. 
 -	Renderöintiin kuluva aika. 
 
