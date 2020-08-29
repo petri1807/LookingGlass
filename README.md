@@ -2,6 +2,9 @@
 
 ![Logo](/Assets/lgf-logo.png)
 
+[Johdanto](https://github.com/petri1807/LookingGlass#johdanto)
+[Kenelle tämä opas on tarkoitettu](https://github.com/petri1807/LookingGlass#kenelle-t%C3%A4m%C3%A4-opas-on-tarkoitettu)
+
 ## Johdanto
 Tässä osiossa käydään lyhyesti läpi mistä laitteesta on kyse, kenelle tämä opas on tarkoitettu ja kuka tämän oppaan on kirjoittanut. 
 
