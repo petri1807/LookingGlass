@@ -128,8 +128,8 @@ Ohjeeseen sisältyvät vaiheet:
 - Denoiserin eli kohinan poistimen käyttö Cycles-rendermoottorilla
 
 Hyvät puolet:
--	Realistisen sisällön tuottaminen suhteellisen helppoa jos 3D softat hallussa.
--	Ei rajoituksia mallin tai valaistuksen monimutkaisuuden puolesta.
+-	Realistisen sisällön tuottaminen on suhteellisen helppoa.
+-	Ei rajoituksia mallin tai valaistuksen kompleksisuuden puolesta. Toisin sanoen malli tai skene voi olla kuinka raskas tahansa, 
 
 Huonot puolet
 -	Staattinen sisältö. Videoiden toisto ei ole mahdollista. 
@@ -170,7 +170,7 @@ Sovelluksen voi ladata osoitteesta https://lookingglassfactory.com/devtools/3d-m
 | Remove Model | Poista malli |
 | **OBJECT** |  |
 | Metallic / Specular / Vertex Color | Shaderin valinta |
-| Render Back Faces | Näyttää malleissa pinnat myös ns. väärätä puolelta. Jos valinta ei ole päällä, takapuolelta katsottuna pinnasta näkee läpi. Eli facen normal suunta määrittää tämän |
+| Render Back Faces | Näyttää malleissa pinnat myös ns. väärätä puolelta. Jos valinta ei ole päällä, takapuolelta katsottuna pinnasta näkee läpi |
 | Mesh Detail | Mallin tarkkuus prosentteina. Jos ohjelma pyörii heikosti raskaalla mallilla, aseta tähän pienempi luku ja paina SET |
 | Glossiness | Mallin pinnan kiiltävyys asteikolla 0-1. Tämä korvataan Metallic ja Roughness arvoilla kun malli on ladattu |
 | Jos tiedosto on .obj tähän väliin tulee tekstuurien lataukset | |
@@ -184,7 +184,7 @@ Sovelluksen voi ladata osoitteesta https://lookingglassfactory.com/devtools/3d-m
 | POST-PROCESSING | |
 | DoF / AO / Bloom Intensity | Depth of Field, Ambient Occlusion ja Bloom efektien voimakkuus |
 | **QUALITY SETTINGS** | |
-| Quilt Resolution | Resoluution säätö. 8K on raskain pyörittää mutta näyttää parhaalta |
+| Quilt Resolution | Resoluution säätö. 8K on raskain pyörittää, mutta näyttää parhaalta |
 | Optimization | Mallin optimointi. Joidenkin mallien kohdalla suorituskyky heikentyy tämän ollessa päällä. Käytä jos siitä on hyötyä | 
 | Post-processing | Depth of Field, Ambient Occlusion ja Bloom efektien aktivointi |
 | FPS-laskin | Kertoo kuinka hyvin kyseinen malli pyörii |
