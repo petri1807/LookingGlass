@@ -183,7 +183,7 @@ Parhaan tuloksen Blenderissä saa käyttämällä Cycles-rendermoottoria joka tu
 - Renderöi kuva. Vasen yläkulma, Render -> Render Image
 
 ![](/Assets/LightfieldPhotoApp/Dia35.JPG)
-- Yhdistä node kuten kuvassa, eli korvaa Image yhteys Noisy Imagella, ja yhdistä Denoising Normal  Normal sekä Denoising Albeido  Albeido
+- Yhdistä node kuten kuvassa, eli korvaa Image yhteys Noisy Imagella, ja yhdistä Denoising Normal -> Normal sekä Denoising Albeido -> Albeido
 - Valmis. Voit tarkastella eroa vaihtamalla Composite nodeen yhdistyvää lähdettä.
 
 ### Denoiser vertailu
