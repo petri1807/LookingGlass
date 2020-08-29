@@ -22,6 +22,8 @@
 
 - [**Lightfield Photo App**](#lightfield-photo-app)
 
+  - [Quilt-kuvien teko Blenderillä](/lightfieldphotoapp.md)
+
 - [**3D Model Importer**](#3d-model-importer)
 
   - [Tuetut tiedostomuodot](#tuetut-tiedostomuodot)
