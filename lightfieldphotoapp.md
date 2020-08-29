@@ -1,4 +1,4 @@
-# Lightfield Photo App
+# Quilt-kuvien teko Blenderillä
 
 Tässä oppaassa käydään kädestä pitäen läpi vaiheet joilla voit itse luoda kuvasarjoja Lightfield Photo Appiin tuotavaksi, jossa niistä voi muokata ja tallentaa oman quilt-kuvan.
 
@@ -9,15 +9,17 @@ Tässä oppaassa käydään kädestä pitäen läpi vaiheet joilla voit itse luo
 - [**Lightfield Photo App**](https://lookingglassfactory.com/devtools/lightfield-photo-app) johon lopulta tuomme kuvat.
 
 ### Vaiheet
--	Mallin tuonti blenderiin
--	Kameroiden asettelu
--	Valaistuksen säätö
+-	[Mallin tuonti blenderiin](#mallin-tuonti-blenderiin)
+-	[Kameroiden asettelu](#kameroiden-asettelu)
 -	RenderBurst lisäosan asennus
 -	Renderöinti
 -	Kuvien tuonti Lightfield Photo Appiin
 -	Kuvan rajaus ja tarkennus
 -	Quiltin tallennus
--	Protip: Denoiserin eli kohinan poistimen käyttö Cycles-rendermoottorilla
+-	Denoiserin eli kohinan poistimen käyttö Cycles-rendermoottorilla
+
+
+#### Mallin tuonti blenderiin
 
 ![](https://github.com/petri1807/LookingGlass/blob/master/Assets/LightfieldPhotoApp/Dia3.JPG)
 - Avaa Blender. Valitse kuutio (hiiren vasen) ja poista se (X, hiiren vasemmalla tai Enter vahvistat komennon)
@@ -27,6 +29,8 @@ Tässä oppaassa käydään kädestä pitäen läpi vaiheet joilla voit itse luo
 
 ![](https://github.com/petri1807/LookingGlass/blob/master/Assets/LightfieldPhotoApp/Dia5.JPG)
 - Valitse mallisi ja paina Import
+
+#### Kameroiden asettelu
 
 ![](https://github.com/petri1807/LookingGlass/blob/master/Assets/LightfieldPhotoApp/Dia6.JPG)
 - Mallin ilmestyy Viewporttiin. Valitse kamera (hiiren vasen) ja avaa sivupaneeli (N)
@@ -77,16 +81,24 @@ Quilt-kuvia voi tehdä pienemmälläkin määrällä esim. testausta varten, mut
 ![](/Assets/LightfieldPhotoApp/Dia21.JPG)
 - Nyt jos siirrymme Top Orthographic-näkymään (Numpad 7) ja aktivoimme Measure-työkalun, niin kameroiden pitäisi olla noin 50° kulmassa malliin nähden.
 
+#### RenderBurst lisäosan asennus
+
 Lataa [Render Burst](https://github.com/VertStretch/RenderBurst) lisäosa Blenderiin. Linkistä löytyy ohjeet asennukseen.
 
 Render Burst helpottaa renderöintiä automatisoimalla usean kameran kuvan renderöinnin ja tallentamisen yhden napin painalluksen taakse. Säästät aikaa sekä hermojasi. Ilman Render Burstia jokainen kuva tulisi yksitellen renderöidä, tallentaa kovalevylle numerojärjestykessä oikealla nimellä, ja aktiivista kameraa pitäisi vaihtaa seuraavaan.
 
+#### Renderöinti
 
 ![](/Assets/LightfieldPhotoApp/Dia22.JPG)
 - Varmista että kohteesi on valaistu. Vaihda Shading mode renderöityyn tilaan (viewportin oikean yläkulman viimeinen kuvake, tai paina Z ja valitse Rendered). Testauksessa kannattaa käyttää Eevee-rendermoottoria. Tämän pitäisi olla normaalisti valittuna, mutta tarkista se silti Render Properties-välilehdeltä.
 
 ![](/Assets/LightfieldPhotoApp/Dia23.JPG)
-- Render Burst vaatii tallennuskansion johon kuvat tallennetaan. Avaa Output Properties-välilehti ja valitse Output kohdasta kansio johon haluat kuvasi tallentaa. Täältä voi myös muuttaa resoluutiota. Helppo tapa renderöidä suuremmalla tai pienemmällä resoluutiolla on vaihtaa Resolution % arvoa. 200% == 3840 x 2160, 
+- Render Burst vaatii tallennuskansion johon kuvat tallennetaan. Avaa Output Properties-välilehti ja valitse Output kohdasta kansio johon haluat kuvasi tallentaa. 
+
+Täältä voi myös muuttaa resoluutiota. Helppo tapa renderöidä suuremmalla tai pienemmällä resoluutiolla on vaihtaa Resolution % arvoa. 
+
+200% == 3840 x 2160
+
 50% == 960 x 540 jne.
 
 ![](/Assets/LightfieldPhotoApp/Dia24.JPG)
@@ -94,6 +106,11 @@ Render Burst helpottaa renderöintiä automatisoimalla usean kameran kuvan rende
 
 ![](/Assets/LightfieldPhotoApp/Dia25.JPG)
 - Kuvasarja on valmis tuotavaksi Lightfield Photo Appiin.
+
+#### Kuvien tuonti Lightfield Photo Appiin
+
+![]()
+- tähän väliin kuva sovelluksen avaamisesta
 
 ![](/Assets/LightfieldPhotoApp/Dia26.JPG)
 - Paina New Image, ja valitse Unnamed
@@ -104,8 +121,12 @@ Render Burst helpottaa renderöintiä automatisoimalla usean kameran kuvan rende
 ![](/Assets/LightfieldPhotoApp/Dia28.JPG)
 - Valitse kaikki kuvat (Ctrl + A) ja avaa
 
+#### Kuvan rajaus ja tarkennus
+
 ![](/Assets/LightfieldPhotoApp/Dia29.JPG)
 - Valitse Set Cropping. Täältä voit hallita leikkausta ja tarkennusta. Raahaa kohdistusikkunaa painamalla ikkunan sisältä, skaalaa ikkunan kokoa raahaamalla sinisistä nurkista. Focus-sliderilla hallitset tarkennuksen kohtaa syvyyssunnassa. Reverse Image kääntää kuvat jos kuvien järjestys vahingossa menisi oikealta vasemmalle.
+
+#### Quiltin tallennus
 
 ![](/Assets/LightfieldPhotoApp/Dia30.JPG)
 - Tallenna Quilt-kuva painamalla Save Quilt.
@@ -118,24 +139,25 @@ Quilt-kuvia käyttämällä mallin teossa ei tarvitse murehtia vertexien määr�
 
 Parhaan tuloksen Blenderissä saa käyttämällä Cycles-rendermoottoria joka tuottaa realistisen path tracing valaistuksen. Tämä kuitenkin vie huomattavasti enemmän aikaa renderöinnissä, jonka takia denoiserin käyttö on suositeltavaa
 
+#### Denoiserin eli kohinan poistimen käyttö Cycles-rendermoottorilla
+
 ![](/Assets/LightfieldPhotoApp/Dia31.JPG)
-- Intel Open Image Denoiserin käyttö
-Varmista että Render Engine on Cycles.
-Jos koneessasi on erillinen näytönohjain, valitse Device kohdasta GPU Compute.
-Sampling-menusta voit hallita sample määrää. Render valmiille kuvalle, Viewport livenä editorissa. Enemmän sampleja == parempi laatu mutta vie enemmän aikaa.
+**Intel Open Image Denoiserin käyttö**
+- Varmista että Render Engine on Cycles.
+- Jos koneessasi on erillinen näytönohjain, valitse Device kohdasta GPU Compute.
+- Sampling-menusta voit hallita sample määrää. Render valmiille kuvalle, Viewport livenä editorissa. Enemmän sampleja == parempi laatu mutta vie enemmän aikaa.
 
 
 ![](/Assets/LightfieldPhotoApp/Dia32.JPG)
 - Siirry Layer Properties-välilehdelle ja valitse Denoising Data 
 
 ![](/Assets/LightfieldPhotoApp/Dia33.JPG)
-- 5. Siirry Compositing-workspaceen ylhäältä
-6. Valitse Use Nodes
+- Siirry Compositing-workspaceen ylhäältä
+- Valitse Use Nodes
 
 ![](/Assets/LightfieldPhotoApp/Dia34.JPG)
 - 7. Lisää Filter  Denoise node ja raahaa se Render Layers ja Composite nodejen väliin
 8. Renderöi kuva. Vasen yläkulma, Render  Render Image
-
 
 ![](/Assets/LightfieldPhotoApp/Dia35.JPG)
 - 9. Yhdistä node kuten kuvassa, eli korvaa Image yhteys Noisy Imagella, ja yhdistä Denoising Normal  Normal sekä Denoising Albeido  Albeido
