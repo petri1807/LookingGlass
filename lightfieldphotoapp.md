@@ -37,44 +37,44 @@ Tässä oppaassa käydään kädestä pitäen läpi vaiheet joilla voit itse luo
 ![](https://github.com/petri1807/LookingGlass/blob/master/Assets/LightfieldPhotoApp/Dia8.JPG)
 - Muuta sivupaneelista kameran Z-rotation arvo nollaksi (korostettu punaisella, valitse arvo hiiren vasemmalla ja syötä arvoksi 0)
 
-![]()
+![](/Assets/LightfieldPhotoApp/Dia9.JPG)
 - Valitse Measure-työkalu. Tämä osio ei ole varsinaisesti tarpeellinen, mutta yritän tällä havainnollistaa optimaalisen 50° kulman jolta kamerat mallia katsovat. Hologrammilasin katselukulma on noin 40-50° joten yritetään pysyä samoilla linjoilla.
 
-![]()
+![](/Assets/LightfieldPhotoApp/Dia10.JPG)
 - Piirrä viivoittimella suora viiva vasemmalta oikealle (hiiren vasen), ja raahaa sitten viivan keskeltä (hiiren vasen) mallin päälle jolloin se muuttuu näyttämään kulman asteina. Raahaa molempia päitä niin että ne ovat yhtä kaukana mallin molemmin puolin ja mittari näyttää 50°
 
-![]()
+![](/Assets/LightfieldPhotoApp/Dia11.JPG)
 - Siirrä kamera viivoittimen vasempaan reunaan (G, tai Move työkalupalkista)
 
-![]()
+![](/Assets/LightfieldPhotoApp/Dia12.JPG)
 - Siirry kameranäkymään (Numpad 0). Jos malli ei näy viewportissa syystä että se on todella pieni, laske kameraa alemmas Z-akselilla joko raahaamalla Z-location arvoa vasemmalle kunnes malli tulee näkyviin tai liikuttamalla kameraa (G), lukitsemalla siirron Z-akselille (Z) ja liikuttamalla hiirtä taakse.
 
-![]()
+![](/Assets/LightfieldPhotoApp/Dia13.JPG)
 - Siirry kameranhallinta välilehdelle oikeasta laidasta ja muuta Focal Length-arvoa kunnes malli on kameran näkymän rajojen sisällä. Tämä arvo on kameroiden kulman kanssa tärkeä osa sitä miten malli esiintyy hologrammilasilla.
 
-![]()
+![](/Assets/LightfieldPhotoApp/Dia14.JPG)
 - Siirry takaisin Top Orthographic-näkymään (Numpad 7) ja tee linkitetty kopio kamerasta (Alt + D), lukita siirto X-akselille (X) ja siirrä kopiota hieman oikealle. Linkitetyllä kopiolla voimme myöhemmin muuttaa kameran asetuksia kuten Focal Length jolloin muutokset yhdessä kamerassa vaikuttavat kaikkiin kameroihin.
 
-![]()
+![](/Assets/LightfieldPhotoApp/Dia15.JPG)
 - Toista viimeisin komento (Shift + R) kunnes sinulla on 45 kameraa. 
 Quilt-kuvia voi tehdä pienemmälläkin määrällä esim. testausta varten, mutta tällöin kokemus lasilla ei ole yhtä sulava.
 
-![]()
+![](/Assets/LightfieldPhotoApp/Dia16.JPG)
 - Ensimmäinen kamera täytyy nimetä uudelleen sillä myöhemmin kun renderöimme nämä kaikki kuvakulmat, tiedostonimet määritetään kameroiden nimien mukaan. Muuta oikealta ylhäältä Outliner-paneelista ”Camera”-objektin nimeksi ”Camera.000”. Tällöin se pysyy ensimmäinenä kuvana vasemmalta kun nämä tuodaan Lightfield Photo Appiin.
 
-![]()
+![](/Assets/LightfieldPhotoApp/Dia17.JPG)
 - Korjataan kameroiden sijainnit. Ensimmäinen kamera on jo oikealla kohdalla, joten käytetään 3D kursoria apuna muiden siirtämiseen. Siirrä 3D kursori ensimmäisen kameran kohdalle (Shift + S, Cursor to Selected)
 
-![]()
+![](/Assets/LightfieldPhotoApp/Dia18.JPG)
 - Vaihda Transform Pivot Point 3D kursoriksi. 
 
-![]()
+![](/Assets/LightfieldPhotoApp/Dia19.JPG)
 - Valitse vasemmalta työkalupalkista Select Box ja valitse oikealta viimeinen kamera. Aseta se aktiiviseksi kameraksi painamalla oikealta ylhäältä Outlinerista kamerakuvaketta sen kohdalla. Valitse kaikki kamerat pitämällä hiiren vasenta pohjassa ja raahaamalla valintalaatikon kaikkien ylle.
 
-![]()
+![](/Assets/LightfieldPhotoApp/Dia20.JPG)
 - Siirry aktiivisen kameran näkymään (Numpad 0) ja skaalaa kaikkia kameroita pienemmäksi (S, raahaa hiirtä vasemmalle) kunnes malli tulee kameran rajojen sisään.
 
-![]()
+![](/Assets/LightfieldPhotoApp/Dia21.JPG)
 - Nyt jos siirrymme Top Orthographic-näkymään (Numpad 7) ja aktivoimme Measure-työkalun, niin kameroiden pitäisi olla noin 50° kulmassa malliin nähden.
 
 Lataa [Render Burst](https://github.com/VertStretch/RenderBurst) lisäosa Blenderiin. Linkistä löytyy ohjeet asennukseen.
@@ -82,32 +82,32 @@ Lataa [Render Burst](https://github.com/VertStretch/RenderBurst) lisäosa Blende
 Render Burst helpottaa renderöintiä automatisoimalla usean kameran kuvan renderöinnin ja tallentamisen yhden napin painalluksen taakse. Säästät aikaa sekä hermojasi. Ilman Render Burstia jokainen kuva tulisi yksitellen renderöidä, tallentaa kovalevylle numerojärjestykessä oikealla nimellä, ja aktiivista kameraa pitäisi vaihtaa seuraavaan.
 
 
-![]()
+![](/Assets/LightfieldPhotoApp/Dia22.JPG)
 - Varmista että kohteesi on valaistu. Vaihda Shading mode renderöityyn tilaan (viewportin oikean yläkulman viimeinen kuvake, tai paina Z ja valitse Rendered). Testauksessa kannattaa käyttää Eevee-rendermoottoria. Tämän pitäisi olla normaalisti valittuna, mutta tarkista se silti Render Properties-välilehdeltä.
 
-![]()
+![](/Assets/LightfieldPhotoApp/Dia23.JPG)
 - Render Burst vaatii tallennuskansion johon kuvat tallennetaan. Avaa Output Properties-välilehti ja valitse Output kohdasta kansio johon haluat kuvasi tallentaa. Täältä voi myös muuttaa resoluutiota. Helppo tapa renderöidä suuremmalla tai pienemmällä resoluutiolla on vaihtaa Resolution % arvoa. 200% == 3840 x 2160, 
 50% == 960 x 540 jne.
 
-![]()
+![](/Assets/LightfieldPhotoApp/Dia24.JPG)
 - Nyt voimme renderöidä kaikki kuvat. Siirry Render Properties-välilehdelle, rullaa valikkoa alas kunnes löydät Render Burst valikon. Paina Render! ja kuvasi tallentuvat.
 
-![]()
+![](/Assets/LightfieldPhotoApp/Dia25.JPG)
 - Kuvasarja on valmis tuotavaksi Lightfield Photo Appiin.
 
-![]()
+![](/Assets/LightfieldPhotoApp/Dia26.JPG)
 - Paina New Image, ja valitse Unnamed
 
-![]()
+![](/Assets/LightfieldPhotoApp/Dia27.JPG)
 - Täältä voit lisätä kuvat valitsemalla Choose Photos
 
-![]()
+![](/Assets/LightfieldPhotoApp/Dia28.JPG)
 - Valitse kaikki kuvat (Ctrl + A) ja avaa
 
-![]()
+![](/Assets/LightfieldPhotoApp/Dia29.JPG)
 - Valitse Set Cropping. Täältä voit hallita leikkausta ja tarkennusta. Raahaa kohdistusikkunaa painamalla ikkunan sisältä, skaalaa ikkunan kokoa raahaamalla sinisistä nurkista. Focus-sliderilla hallitset tarkennuksen kohtaa syvyyssunnassa. Reverse Image kääntää kuvat jos kuvien järjestys vahingossa menisi oikealta vasemmalle.
 
-![]()
+![](/Assets/LightfieldPhotoApp/Dia30.JPG)
 - Tallenna Quilt-kuva painamalla Save Quilt.
 
 Valmis Quilt näyttää tältä.
@@ -118,32 +118,32 @@ Quilt-kuvia käyttämällä mallin teossa ei tarvitse murehtia vertexien määr�
 
 Parhaan tuloksen Blenderissä saa käyttämällä Cycles-rendermoottoria joka tuottaa realistisen path tracing valaistuksen. Tämä kuitenkin vie huomattavasti enemmän aikaa renderöinnissä, jonka takia denoiserin käyttö on suositeltavaa
 
-![]()
+![](/Assets/LightfieldPhotoApp/Dia31.JPG)
 - Intel Open Image Denoiserin käyttö
 Varmista että Render Engine on Cycles.
 Jos koneessasi on erillinen näytönohjain, valitse Device kohdasta GPU Compute.
 Sampling-menusta voit hallita sample määrää. Render valmiille kuvalle, Viewport livenä editorissa. Enemmän sampleja == parempi laatu mutta vie enemmän aikaa.
 
 
-![]()
+![](/Assets/LightfieldPhotoApp/Dia32.JPG)
 - Siirry Layer Properties-välilehdelle ja valitse Denoising Data 
 
-![]()
+![](/Assets/LightfieldPhotoApp/Dia33.JPG)
 - 5. Siirry Compositing-workspaceen ylhäältä
 6. Valitse Use Nodes
 
-![]()
+![](/Assets/LightfieldPhotoApp/Dia34.JPG)
 - 7. Lisää Filter  Denoise node ja raahaa se Render Layers ja Composite nodejen väliin
 8. Renderöi kuva. Vasen yläkulma, Render  Render Image
 
 
-![]()
+![](/Assets/LightfieldPhotoApp/Dia35.JPG)
 - 9. Yhdistä node kuten kuvassa, eli korvaa Image yhteys Noisy Imagella, ja yhdistä Denoising Normal  Normal sekä Denoising Albeido  Albeido
 10. Valmis. Voit tarkastella eroa vaihtamalla Composite nodeen yhdistyvää lähdettä.
 
 
-![]()
-- 
+![](/Assets/LightfieldPhotoApp/Dia36.JPG)
+- Denoiser vertailu
 
 Denoisen ollessa käytössä jokainen kuva käy filtterin läpi ennen tallennusta. Tämä siis tarvitsee tehdä vain kerran.
 
