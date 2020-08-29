@@ -30,14 +30,14 @@ Looking Glass on Looking Glass Factoryn kehittämä hologramminäyttö joka huij
 ![Meet the lookinng glass](/Assets/meet-the-looking-glass.jpg)
 *Looking Glass-laitteet vasemmalta alkaen: 8.9" / 15.6" / 32”*
 
-## Kenelle tämä opas on tarkoitettu
+### Kenelle tämä opas on tarkoitettu
 Tämän käsikirjan tarkoitus on opastaa tulevia kehittäjiä tuomaan valmiita tai itse tehtyjä 3D-malleja hologrammilasille, sekä selvittää mitä asioita pitää ottaa huomioon omia malleja luodessa. Kehittäjältä odotetaan aiempaa kokemusta 3D-mallinnuksesta uutta sisältöä luodessa. Ohjelmistona käytössä Blender 2.83. Lataa uusin versio [blenderin kotisivuilta](https://blender.org) 
 
-## Kytkennät
+### Kytkennät
 Laitteen liitännät ovat erittäin yksinkertaiset. Pakkauksessa tulee mukana yksi HDMI ja yksi USB-kaapeli. Näiden liitännät löytyvät lasin takapuolelta. Kun yhdistät nämä tietokoneeseen, avaa näytön asetukset ja asetaa Looking Glassin resoluutioksi 2560 x 1600 ja skaalaus 100%.
 Joidenkin sovellusten kohdalla kolmen näytön käyttäminen samaan aikaan aiheutti ongelmia. Itselläni Lightfield Photo App ei suostunut avautumaan Looking Glassilla kolmantena näyttönä. Jos tällaista esiintyy kohdallasi, käy ottamassa näytön asetuksista toinen näyttö pois käytöstä, avaa sovellus lasille, ja tämän jälkeen voit ottaa toisen näytön uudelleen käyttöön.
 
-## Tarvittavien sovellusten asennus
+### Tarvittavien sovellusten asennus
 [DevTools](https://lookingglassfactory.com/devtools)-sivulta löytyvät kaikki viralliset lasille kehitetyt sovellukset sekä lisäosat.
 
 [HoloPlay Service](https://lookingglassfactory.com/software/holoplay-service) täytyy asentaa jotta lasi toimii ja sille pystyy kehittämään sisältöä.
@@ -52,7 +52,7 @@ Joidenkin sovellusten kohdalla kolmen näytön käyttäminen samaan aikaan aiheu
 -	[HoloPlay Unity SDK](https://lookingglassfactory.com/devtools/holoplay-unity-plugin)
 -	[Leap Motion-kontrolleri](https://developer.leapmotion.com/setup/desktop)
 
-## Miten lasi toimii
+### Miten lasi toimii
 Hologrammilasin toiminta perustuu näytölle esitettävien 45 eri kuvakulman esittämisestä polarisoivan filtterin läpi, joka huijaa katsojan näköaistia havainnoimaan kolmiulotteisia objekteja lasin sisällä kahdella tavalla. 
 -	Vaihtamalla katsojan näkökulmaa esitettävästä kohteesta vaakasuunassa
 -	Esittämällä eri näkökulmia kullekkin silmälle
@@ -67,10 +67,41 @@ Alla oleva kuva havainnollistaa miten nämä 45 eri näkökulmaa esitetään las
 
 Quilt tarkoittaa siis yhtä kuvatiedostoa jossa on tyypillisesti 5 kolumnia ja 9 riviä, yhteensä 45 itsenäistä kuvaa mallista eri kuvakulmista. Quiltin voi tehdä pienemmälläkin määrällä kuvia, mutta illuusion sulavuus kohdetta katsottaessa eri kuvakulmista saattaa kärsiä.
 
-Tähän samaan toimintaan jokainen lasille kehitetty sovellus pyrkii. Oli kyseessä sitten quilt-kuvien esitykseen tarkoitettu Lightfield Photo App, selaimella näytettävä sisältö tai Unity/Unreal pelimoottoreilla esitettävä interaktiivinen sisältö, kaikki nämä jakavat sisältönsä quilt-kuviin jotka sitten esitetään näytölle.
+Tähän samaan toimintaan jokainen lasille kehitetty sovellus perustuu. Oli kyseessä sitten quilt-kuvien esitykseen tarkoitettu Lightfield Photo App, selaimella näytettävä sisältö tai Unity/Unreal pelimoottoreilla esitettävä interaktiivinen sisältö, kaikki nämä jakavat sisältönsä quilt-kuviin jotka sitten esitetään näytölle.
 
 Quilt-kuva lasilla. Kameran linssille näkyy yhtäaikaisesti 5-6 kuvaa vaihtelevalla voimakkuudella. Tällöin lasia katsellessa kumpikin silmä näkee usean eri kuvan yhtäaikaisesti luoden sulavan kokemuksen päätä liikutettaessa sivulta toiselle. Syvyyssuunnassa lasin keskellä on ns. zero parallax plane, eli kohta jossa kohde on tarkimmillaan eikä liiku. Tämän kohdan takana ja edessä kohteen osat liikkuvat luoden kolmiulotteisen efektin.
 
 ![On LKG](/Assets/on-lkg.gif)
 
 Aiheesta voi lukea lisää [How It Works](https://docs.lookingglassfactory.com/Appendix/how-it-works/)-sivulla. 
+
+
+##Sovellukset
+
+###Lightfield Photo App
+
+Sovelluksen voi ladata osoitteesta https://lookingglassfactory.com/devtools/lightfield-photo-app
+
+Lightfield Photo App toistaa lightfield-kuvia hologrammilasilla. Kuvasarjoja voi tehdä mistä tahansa 3D mallista, tai kuvata itse.
+Quilt-kuvalla tarkoitetaan yhtä tiedostoa joka sisältää kaikki 32-45 kuvakulmaa 3D-mallista. Kuvasarjalla tarkoitetaan erillisiä kuvia joista voidaan rakentaa quilt.
+Quilt-kuvien etuna on niiden kompakti koko sekä jaettavuuden helppous kun kyseessä on vain yksi tiedosto. Kuvasarjojen etuna taas on muokattavuus, eli kuvan kroppausta ja tarkennusta on mahdollista muuttaa. Kuvasarjoista voidaan tallentaa erillinen quilt-kuva. 
+
+[Lightfield Photo App](/Assets/lightfieldphotoapp.md) osiosta löytyy ohjeet, jossa käydään läpi vaiheet miten omia quilt-kuvia voi tehdä helposti Blenderissä. Tähän voi käyttää mitä tahansa omaa tai netistä ladattua 3D mallia.
+
+Ohjeeseen sisältyvät vaiheet:
+-	Mallin teko tai importtaus
+-	Kameroiden asettelu
+-	Valaistuksen säätö
+-	RenderBurst lisäosan asennus
+-	Renderöinti
+-	Kuvien tuonti Lightfield Photo Appiin
+-	Kuvan rajaus ja tarkennus
+-	Quiltin tallennus
+-	Protip: Denoiserin käyttö Cycles-rendermoottorilla
+
+Lightfield Photo Appin hyvät ja huonot puolet:
+-	Realistisen sisällön tuottaminen suhteellisen helppoa jos 3D softat hallussa.
+-	Ei rajoituksia mallin tai valaistuksen monimutkaisuuden puolesta.
+-	Staattinen sisältö. Videoiden toisto ei ole mahdollista. 
+-	Renderöintiin kuluva aika. 
+
