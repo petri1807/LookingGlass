@@ -6,6 +6,10 @@
 
 ## [Laitteenseen tutustuminen](#laitteeseen-tutustuminen)
 
+- [**Looking Glass Holographic Display**](#looking-glass-holographic-display)
+
+- [**Kuka tämän oppaan kirjoitti**](#kuka-tämän-oppaan-kirjoitti)
+
 - [**Kenelle tämä opas on tarkoitettu**](#kenelle-tämä-opas-on-tarkoitettu)
 
 - [**Kytkennät**](#kytkennät)
