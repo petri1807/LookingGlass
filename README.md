@@ -124,7 +124,14 @@ Huonot puolet
 
 Sovelluksen voi ladata osoitteesta https://lookingglassfactory.com/devtools/3d-model-importer
 
-3D Model Importer mahdollistaa 3D mallin esittämisen hologrammilasilla helposti ja nopeasti. Mallia voi ohjailla hiirellä tai Leap Motion-liikeohjaimella. Tiedoston täytyy olla .gltf , .glb,  tai .obj muodossa. Animaatiot ovat tuettuja .gltf ja .glb tiedostoissa. Valaistusta voi muokata itse melko rajallisesti. Käytössä on vain kaksi valonlähdettä, kohdistettu valo sekä ”ambient” valaistus.
+3D Model Importer mahdollistaa 3D mallin esittämisen hologrammilasilla helposti ja nopeasti. Mallia voi ohjailla hiirellä tai Leap Motion-liikeohjaimella. Valaistusta voi muokata itse melko rajallisesti. Käytössä on vain kaksi valonlähdettä, kohdistettu valo sekä ”ambient” valaistus.
+
+**Tuetut tiedostomuodot**
+| Tiedostopääte | Tukee animonteja |
+|---|---|
+| .glb | ✔ |
+| .gltf | ✔ |
+| .obj | x |
 
 #### Kontrollit
 
