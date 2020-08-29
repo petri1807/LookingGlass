@@ -45,3 +45,14 @@ Joidenkin sovellusten kohdalla kolmen näytön käyttäminen samaan aikaan aiheu
 -	[HoloPlay Unity SDK](https://lookingglassfactory.com/devtools/holoplay-unity-plugin)
 -	[Leap Motion-kontrolleri](https://developer.leapmotion.com/setup/desktop)
 
+## Miten lasi toimii
+Hologrammilasin toiminta perustuu näytölle esitettävien 45 eri kuvakulman esittämisestä polarisoivan filtterin läpi, joka huijaa katsojan näköaistia havainnoimaan kolmiulotteisia objekteja lasin sisällä kahdella tavalla. 
+-	Vaihtamalla katsojan näkökulmaa esitettävästä kohteesta vaakasuunassa
+-	Esittämällä eri näkökulmia kullekkin silmälle
+Alla oleva kuva havainnollistaa miten nämä 45 eri näkökulmaa esitetään lasille.
+-	**Keskellä** Looking Glass lintuperspektiivistä. Laatikko esittää lasin sisällä olevaa tilaa. Lasiin yhdistyvät mustat viivat havainnollistavat mistä näkökulmasta vasemmalla ja oikealla esitettävä kuva näkyy.
+-	Looking Glassin **sisällä** on kuvassa esitettävä 3D-malli
+-	**Oikealla** näkyy 2D-kuva jota kullekkin näkökulmalle esitetään. 
+-	**Vasemmalla** näkyy kaikista 45 kuvasta muodostettu ”Quilt”, jossa punainen laatikko havainnollistaa myös mikä kuva mistäkin näkökulmasta katsottuna näkyy.
+
+![Multiplex](/Assets/nultiplex.gif)
