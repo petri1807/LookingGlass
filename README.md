@@ -128,15 +128,15 @@ Sovelluksen voi ladata osoitteesta https://lookingglassfactory.com/devtools/3d-m
 
 **Kontrollit**
 
-|Painike | Toiminto|
+| Painike | Toiminto |
 |---|---|
-|Hiiren vasen | Pyöritä näkymää kiintopisteen ympäri|
-|Hiiren rulla | Zoomaus lähemmäs/kauemmas|
-|Hiiren oikea | Mallin liikuttaminen vaaka/pystysuunnassa|
-|Hiiren vasen tuplaklikkaus < Aseta kiintopiste|
-|Vasen/oikea nuolinäppäimet | Edellinen/seuraava malli|
-|Neliönäppäin näytöllä | Näyttää/piilottaa menun|
-|Ympyränäppäin näytöllä | Pyöritä mallia|
+| Hiiren vasen | Pyöritä näkymää kiintopisteen ympäri |
+| Hiiren rulla | Zoomaus lähemmäs/kauemmas |
+| Hiiren oikea | Mallin liikuttaminen vaaka/pystysuunnassa |
+| Hiiren vasen tuplaklikkaus | Aseta kiintopiste |
+| Vasen/oikea nuolinäppäimet | Edellinen/seuraava malli |
+| Neliönäppäin näytöllä | Näyttää/piilottaa menun |
+| Ympyränäppäin näytöllä | Pyöritä mallia |
 
 
 ### Holoplay Unity SDK
