@@ -131,7 +131,7 @@ Sovelluksen voi ladata osoitteesta https://lookingglassfactory.com/devtools/3d-m
 |---|---|
 | .glb | ✔ |
 | .gltf | ✔ |
-| .obj | x |
+| .obj | ❌ |
 
 #### Kontrollit
 
