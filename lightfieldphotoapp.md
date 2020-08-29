@@ -54,22 +54,22 @@ Ohjeet on järjestetty niin, että jokaisen kuvan alla on siihen liittyvät vaih
 
 ![](/Assets/LightfieldPhotoApp/Dia12.JPG)
 - Siirry kameranäkymään (Numpad 0). Jos mallisi on todella pieni, eikä näy viewportissa, laske kameraa alemmas Z-akselilla joko:
-  - rahaamalla Z-location arvoa vasemmalle, kunnes malli tulee näkyviin
+  - rahaamalla Z-location arvoa vasemmalle, kunnes malli tulee näkyviin.
   - liikuttamalla kameraa (G), lukitsemalla siirron Z-akselille (Z) ja liikuttamalla hiirtä taakse.
 
 ![](/Assets/LightfieldPhotoApp/Dia13.JPG)
 - Siirry kameranhallinta välilehdelle oikeasta laidasta ja muuta Focal Length-arvoa, kunnes malli on kameran näkymän rajojen sisällä.
 
 ![](/Assets/LightfieldPhotoApp/Dia14.JPG)
-- Siirry takaisin Top Orthographic-näkymään (Numpad 7) ja tee linkitetty kopio kamerasta (Alt + D), lukita siirto X-akselille (X) ja siirrä kopiota hieman oikealle. Linkitetyllä kopiolla voimme myöhemmin muuttaa kameran asetuksia kuten Focal Length jolloin muutokset yhdessä kamerassa vaikuttavat kaikkiin kameroihin.
+- Siirry takaisin Top Orthographic-näkymään (Numpad 7) ja tee linkitetty kopio kamerasta (Alt + D), lukita siirto X-akselille (X) ja siirrä kopiota hieman oikealle. Linkitetyllä kopiolla voimme myöhemmin muuttaa kameran asetuksia, kuten Focal Length, jolloin muutokset yhdessä kamerassa vaikuttavat kaikkiin kameroihin.
 
 ![](/Assets/LightfieldPhotoApp/Dia15.JPG)
-- Toista viimeisin komento (Shift + R) kunnes sinulla on 45 kameraa. 
+- Toista viimeisin komento (Shift + R), kunnes sinulla on 45 kameraa. 
 - Quilt-kuvia voi tehdä pienemmälläkin määrällä esim. testausta varten, mutta tällöin kokemus lasilla ei ole yhtä sulava.
 
 ![](/Assets/LightfieldPhotoApp/Dia16.JPG)
 - Ensimmäinen kamera täytyy nimetä uudelleen, sillä myöhemmin, kun renderöimme nämä kaikki kuvakulmat, tiedostonimet määritetään kameroiden nimien mukaan. 
-- Valitse vasemmalta ensimmäinen kamera, ja muuta sen nimeksi ”Camera.000” joko oikealta ylhäältä Outliner-paneelista, tai painamalla F2, joka avaa nimen muuttamisen.
+- Valitse vasemmalta ensimmäinen kamera ja muuta sen nimeksi ”Camera.000”, joko oikealta ylhäältä Outliner-paneelista, tai painamalla F2, joka avaa nimen muuttamisen.
 - Nimeämällä kameran oikein se pysyy ensimmäinenä kuvana vasemmalta kun nämä tuodaan Lightfield Photo Appiin.
 
 ![](/Assets/LightfieldPhotoApp/Dia17.JPG)
@@ -79,7 +79,9 @@ Ohjeet on järjestetty niin, että jokaisen kuvan alla on siihen liittyvät vaih
 - Vaihda Transform Pivot Point 3D kursoriksi. 
 
 ![](/Assets/LightfieldPhotoApp/Dia19.JPG)
-- Valitse vasemmalta työkalupalkista Select Box ja valitse oikealta viimeinen kamera. Aseta se aktiiviseksi kameraksi painamalla oikealta ylhäältä Outlinerista kamerakuvaketta sen kohdalla. Valitse kaikki kamerat pitämällä hiiren vasenta pohjassa ja raahaamalla valintalaatikon kaikkien ylle.
+- Valitse vasemmalta työkalupalkista Select Box ja valitse oikealta viimeinen kamera. 
+- Aseta se aktiiviseksi kameraksi painamalla oikealta ylhäältä Outlinerista kamerakuvaketta sen kohdalla, tai painamalla Ctrl + Alt + Numpad 0.
+- Valitse kaikki kamerat pitämällä hiiren vasenta pohjassa ja raahaamalla valintalaatikon kaikkien ylle.
 
 ![](/Assets/LightfieldPhotoApp/Dia20.JPG)
 - Siirry aktiivisen kameran näkymään (Numpad 0) ja skaalaa kaikkia kameroita pienemmäksi (S, raahaa hiirtä vasemmalle) kunnes malli tulee kameran rajojen sisään.
