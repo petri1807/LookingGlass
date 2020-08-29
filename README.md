@@ -4,15 +4,15 @@
 
 
 
-[**Johdanto**](https://github.com/petri1807/LookingGlass#johdanto)
+[**Johdanto**](#johdanto)
 
-[**Kenelle tämä opas on tarkoitettu**](https://github.com/petri1807/LookingGlass#kenelle-t%C3%A4m%C3%A4-opas-on-tarkoitettu)
+[**Kenelle tämä opas on tarkoitettu**](#kenelle-tämä-opas-on-tarkoitettu)
 
-[**Kytkennät**](https://github.com/petri1807/LookingGlass#kytkenn%C3%A4t)
+[**Kytkennät**](#kytkennät)
 
-[**Tarvittavien sovellusten asennus**](https://github.com/petri1807/LookingGlass#tarvittavien-sovellusten-asennus)
+[**Tarvittavien sovellusten asennus**](#tarvittavien-sovellusten-asennus)
 
-[**Miten lasi toimii**](https://github.com/petri1807/LookingGlass#miten-lasi-toimii)
+[**Miten lasi toimii**](#miten-lasi-toimii)
 
 
 
