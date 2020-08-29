@@ -179,18 +179,19 @@ Parhaan tuloksen Blenderissä saa käyttämällä Cycles-rendermoottoria joka tu
 - Valitse Use Nodes
 
 ![](/Assets/LightfieldPhotoApp/Dia34.JPG)
-- 7. Lisää Filter  Denoise node ja raahaa se Render Layers ja Composite nodejen väliin
-8. Renderöi kuva. Vasen yläkulma, Render  Render Image
+- Lisää Filter -> Denoise node ja raahaa se Render Layers ja Composite nodejen väliin
+- Renderöi kuva. Vasen yläkulma, Render -> Render Image
 
 ![](/Assets/LightfieldPhotoApp/Dia35.JPG)
-- 9. Yhdistä node kuten kuvassa, eli korvaa Image yhteys Noisy Imagella, ja yhdistä Denoising Normal  Normal sekä Denoising Albeido  Albeido
-10. Valmis. Voit tarkastella eroa vaihtamalla Composite nodeen yhdistyvää lähdettä.
+- Yhdistä node kuten kuvassa, eli korvaa Image yhteys Noisy Imagella, ja yhdistä Denoising Normal  Normal sekä Denoising Albeido  Albeido
+- Valmis. Voit tarkastella eroa vaihtamalla Composite nodeen yhdistyvää lähdettä.
 
+### Denoiser vertailu
 ![](/Assets/LightfieldPhotoApp/Dia36.JPG)
-- Denoiser vertailu
 
-Denoisen ollessa käytössä jokainen kuva käy filtterin läpi ennen tallennusta. Tämä siis tarvitsee tehdä vain kerran.
 
-Denoise toimii pelkästään Cyclesin kanssa. Jos käytät Eevee-rendermoottoria muista muuttaa Render Layers-Composite yhteys alkuperäiseen (Dia 36) tai ota Use Nodes pois päältä.
+Denoisen ollessa käytössä jokainen kuva käy filtterin läpi ennen tallennusta. RenderBurstilla renderöidän tämä siis tarvitsee tehdä vain kerran, ja kaikki kuvat käsitellään automaattisesti.
+
+Denoise toimii pelkästään Cyclesin kanssa. Jos käytät Eevee-rendermoottoria muista muuttaa Render Layers-Composite yhteys alkuperäiseen muotoon tai ota Use Nodes pois päältä.
 
 Käytettävien samplejen määrä on laadun ja nopeuden tasapainottelua. Yksinkertaisissa kohteissa voidaan käyttää hyvin matalia lukuja ilman että laatu kärsii huomattavasti. Lasi jonka läpi heijastetaan valoa on hyvä esimerkki kohteesta joka saattaa vaatia verrattaen suuren määrän sampleja näyttääkseen hyvältä.
