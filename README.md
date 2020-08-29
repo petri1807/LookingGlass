@@ -4,7 +4,7 @@
 
 
 
-## [Johdanto](#johdanto)
+## [Laitteenseen tutustuminen](#laitteeseen-tutustuminen)
 
 - [**Kenelle tämä opas on tarkoitettu**](#kenelle-tämä-opas-on-tarkoitettu)
 
@@ -22,7 +22,7 @@
 
 - [**Holoplay Unity SDK**](#holoplay-unity-sdk)
 
-## Johdanto
+## Laitteenseen tutustuminen
 Tässä osiossa käydään lyhyesti läpi mistä laitteesta on kyse, kenelle tämä opas on tarkoitettu ja kuka tämän oppaan on kirjoittanut. 
 
 Looking Glass on Looking Glass Factoryn kehittämä hologramminäyttö joka huijaa katsojan näköaistia uskomaan että näytöllä esiteltävä sisältö on kolmiulotteista. Näytölle esitetään 45 eri kuvakulmaa kohteesta yhtäaikaisesti. Näytön pinnalla oleva polarisoiva filtteri näyttää kullekkin silmälle 3-5 kuvakulmaa vaihtelevalla voimakkuudella luoden sulavan illuusion kolmiulotteisesta kohteesta. Päätä liikutettaessa kohdetta voi tarkkailla vaakasuunnassa eri puolilta noin 40-50 asteen kulmassa. Hologrammilasista on tämän käsioppaan kirjotushetkellä (kesä 2020) saatavilla neljä versiota:
@@ -91,7 +91,7 @@ Lightfield Photo App toistaa lightfield-kuvia hologrammilasilla. Kuvasarjoja voi
 Quilt-kuvalla tarkoitetaan yhtä tiedostoa joka sisältää kaikki 32-45 kuvakulmaa 3D-mallista. Kuvasarjalla tarkoitetaan erillisiä kuvia joista voidaan rakentaa quilt.
 Quilt-kuvien etuna on niiden kompakti koko sekä jaettavuuden helppous kun kyseessä on vain yksi tiedosto. Kuvasarjojen etuna taas on muokattavuus, eli kuvan kroppausta ja tarkennusta on mahdollista muuttaa. Kuvasarjoista voidaan tallentaa erillinen quilt-kuva. 
 
-[**Quilt-kuvien teko Blenderillä**](/lightfieldphotoapp.md) osiosta löytyy ohjeet, jossa käydään läpi vaiheet miten omia quilt-kuvia voi tehdä helposti Blenderissä. Tähän voi käyttää mitä tahansa omaa tai netistä ladattua 3D mallia.
+[**Quilt-kuvien teko Blenderillä**](/lightfieldphotoapp.md) osiosta löytyy ohjeet, jossa käydään läpi vaiheet miten omia quilt-kuvia voi tehdä helposti Blenderissä. Tähän voi käyttää mitä tahansa omaa tai netistä ladattua 3D mallia. Käytän esimerkkinä itse tekemääni Iittala Paratiisi-sarjan kahvimuki-mallia.
 
 Ohjeeseen sisältyvät vaiheet:
 -	Mallin tuominen blenderiin
@@ -113,4 +113,8 @@ Huonot puolet
 
 ### 3D Model Importer
 
+....
+
 ### Holoplay Unity SDK
+
+....
