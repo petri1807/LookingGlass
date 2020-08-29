@@ -4,7 +4,7 @@
 
 
 
-## [Laitteenseen tutustuminen](#laitteeseen-tutustuminen)
+## [Laitteeseen tutustuminen](#laitteeseen-tutustuminen)
 
 - [**Looking Glass Holographic Display**](#looking-glass-holographic-display)
 
