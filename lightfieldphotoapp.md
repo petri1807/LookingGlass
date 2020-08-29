@@ -84,16 +84,16 @@ Ohjeet on järjestetty niin, että jokaisen kuvan alla on siihen liittyvät vaih
 - Valitse kaikki kamerat pitämällä hiiren vasenta pohjassa ja raahaamalla valintalaatikon kaikkien ylle.
 
 ![](/Assets/LightfieldPhotoApp/Dia20.JPG)
-- Siirry aktiivisen kameran näkymään (Numpad 0) ja skaalaa kaikkia kameroita pienemmäksi (S, raahaa hiirtä vasemmalle) kunnes malli tulee kameran rajojen sisään.
+- Siirry aktiivisen kameran näkymään (Numpad 0) ja skaalaa kaikkia kameroita pienemmäksi (S, raahaa hiirtä vasemmalle), kunnes malli tulee kameran rajojen sisään.
 
 ![](/Assets/LightfieldPhotoApp/Dia21.JPG)
-- Nyt jos siirrymme Top Orthographic-näkymään (Numpad 7) ja aktivoimme Measure-työkalun, niin kameroiden pitäisi olla noin 50° kulmassa malliin nähden.
+- Nyt, jos siirrymme Top Orthographic-näkymään (Numpad 7) ja aktivoimme Measure-työkalun, kameroiden pitäisi olla noin 50° kulmassa malliin nähden.
 
 ## RenderBurst lisäosan asennus
 
 Lataa [RenderBurst](https://github.com/VertStretch/RenderBurst) lisäosa Blenderiin. Linkistä löytyy ohjeet asennukseen.
 
-RenderBurst helpottaa renderöintiä automatisoimalla usean kameran kuvan renderöinnin ja tallentamisen yhden napin painalluksen taakse. Säästät aikaa sekä hermojasi. Ilman RenderBurstia jokainen kuva tulisi yksitellen renderöidä, tallentaa kovalevylle numerojärjestykessä oikealla nimellä, ja aktiivista kameraa pitäisi vaihtaa seuraavaan.
+RenderBurst helpottaa renderöintiä automatisoimalla usean kameran kuvan renderöinnin ja tallentamisen yhden napin painalluksen taakse. Säästät aikaa sekä hermojasi. Ilman RenderBurstia jokainen kuva tulisi yksitellen renderöidä, tallentaa kovalevylle numerojärjestykessä oikealla nimellä ja aktiivista kameraa pitäisi vaihtaa seuraavaan.
 
 ## Renderöinti
 
@@ -105,9 +105,12 @@ RenderBurst helpottaa renderöintiä automatisoimalla usean kameran kuvan render
 
 Täältä voi myös muuttaa resoluutiota. Helppo tapa renderöidä suuremmalla tai pienemmällä resoluutiolla on vaihtaa Resolution % arvoa. 
 
-200% == 3840 x 2160
-
-50% == 960 x 540 jne.
+Esimerkiksi
+| % | Resoluutio |
+|---|---|
+| 200% | 3840 x 2160|
+| 100% | 1920 x 1080 |
+| 50% | 960 x 540 |
 
 ![](/Assets/LightfieldPhotoApp/Dia24.JPG)
 - Nyt voimme renderöidä kaikki kuvat. Siirry Render Properties-välilehdelle, rullaa valikkoa alas kunnes löydät Render Burst valikon. Paina Render! ja kuvasi tallentuvat.
