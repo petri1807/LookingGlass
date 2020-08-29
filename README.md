@@ -4,18 +4,23 @@
 
 
 
-[**Johdanto**](#johdanto)
+## [Johdanto](#johdanto)
 
-[**Kenelle tämä opas on tarkoitettu**](#kenelle-tämä-opas-on-tarkoitettu)
+- [**Kenelle tämä opas on tarkoitettu**](#kenelle-tämä-opas-on-tarkoitettu)
 
-[**Kytkennät**](#kytkennät)
+- [**Kytkennät**](#kytkennät)
 
-[**Tarvittavien sovellusten asennus**](#tarvittavien-sovellusten-asennus)
+- [**Tarvittavien sovellusten asennus**](#tarvittavien-sovellusten-asennus)
 
-[**Miten lasi toimii**](#miten-lasi-toimii)
+- [**Miten lasi toimii**](#miten-lasi-toimii)
 
+## [Sovellukset](#sovellukset)
 
+- [**Lightfield Photo App**](#lightfield-photo-app)
 
+- [**3D Model Importer**](#3d-model-importer)
+
+- [**Holoplay Unity SDK**](#holoplay-unity-sdk)
 
 ## Johdanto
 Tässä osiossa käydään lyhyesti läpi mistä laitteesta on kyse, kenelle tämä opas on tarkoitettu ja kuka tämän oppaan on kirjoittanut. 
@@ -105,3 +110,6 @@ Lightfield Photo Appin hyvät ja huonot puolet:
 -	Staattinen sisältö. Videoiden toisto ei ole mahdollista. 
 -	Renderöintiin kuluva aika. 
 
+### 3D Model Importer
+
+### Holoplay Unity SDK
