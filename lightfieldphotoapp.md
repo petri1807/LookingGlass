@@ -11,12 +11,12 @@ Tässä oppaassa käydään kädestä pitäen läpi vaiheet joilla voit itse luo
 ### Vaiheet
 -	[Mallin tuonti blenderiin](#mallin-tuonti-blenderiin)
 -	[Kameroiden asettelu](#kameroiden-asettelu)
--	RenderBurst lisäosan asennus
--	Renderöinti
--	Kuvien tuonti Lightfield Photo Appiin
--	Kuvan rajaus ja tarkennus
--	Quiltin tallennus
--	Denoiserin eli kohinan poistimen käyttö Cycles-rendermoottorilla
+-	[RenderBurst lisäosan asennus](#renderburst-lisäosan-asennus)
+-	[Renderöinti](#renderöinti)
+-	[Kuvien tuonti Lightfield Photo Appiin](#kuvien-tuonti-lightfield-photo-appiin)
+-	[Kuvan rajaus ja tarkennus](#kuvan-rajaus-ja-tarkennus)
+-	[Quiltin tallennus](#quiltin-tallennus)
+-	[Denoiserin eli kohinan poistimen käyttö Cycles-rendermoottorilla](#denoiserin-eli-kohinan-poistimen-käyttö-cycles-rendermoottorilla)
 
 
 ### Mallin tuonti blenderiin
