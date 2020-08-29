@@ -154,14 +154,13 @@ Sovelluksen voi ladata osoitteesta https://lookingglassfactory.com/devtools/3d-m
 | Jos tiedosto on .obj tähän väliin tulee tekstuurien lataukset | |
 | Play Animation | Toista animaatio |
 | Animation Speed | Animaation nopeus |
-
-##### LIGHTING
-Use backdrop – Käytä taustana valkoista seinää jos haluat varjojen heijastuvan pinnalle.
-Backdrop Distance – Taustan etäisyys mallista. 
-Horizontal / Vertical Angle – Valon sijainti vaaka sekä pystyakselilla.
-Directional / Ambient Intensity – Valon voimakkuus kohdistettuna / ympäristöstä.
-POST-PROCESSING
-DoF / AO / Bloom Intensity – Depth of Field, Ambient Occlusion ja Bloom efektien voimakkuus.
+| **LIGHTING** | |
+| Use backdrop | Käytä taustana valkoista seinää jos haluat varjojen heijastuvan pinnalle |
+| Backdrop Distance | Taustan etäisyys mallista |
+| Horizontal / Vertical Angle | Valon sijainti vaaka sekä pystyakselilla |
+| Directional / Ambient Intensity | Valon voimakkuus kohdistettuna / ympäristöstä |
+| POST-PROCESSING | |
+| DoF / AO / Bloom Intensity | Depth of Field, Ambient Occlusion ja Bloom efektien voimakkuus |
 
 ##### QUALITY SETTINGS
 Quilt Resolution – Resoluution säätö. 8K on raskain pyörittää mutta näyttää parhaalta. 
