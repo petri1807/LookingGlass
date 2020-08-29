@@ -35,10 +35,13 @@ Joidenkin sovellusten kohdalla kolmen näytön käyttäminen samaan aikaan aiheu
 
 [HoloPlay Service](https://lookingglassfactory.com/software/holoplay-service) täytyy asentaa jotta lasi toimii ja sille pystyy kehittämään sisältöä.
 
-[Looking Glass Library](https://lookingglassfactory.com/devtools/looking-glass-library) on sovelluskirjasto josta löytyy muiden käyttäjien julkaisemia sovelluksia, ja sinne voi myös lisätä omia sovelluksia jos niitä haluaa jakaa julkisesti. [MadeWith](https://madewith.lookingglassfactory.com/)-sivulla pääset myös testaamaan muiden käyttäjien julkaisemia sovelluksia ja quilt-kuvia.  
+[Looking Glass Library](https://lookingglassfactory.com/devtools/looking-glass-library) on sovelluskirjasto josta löytyy muiden käyttäjien julkaisemia sovelluksia, ja sinne voi myös lisätä omia sovelluksia jos niitä haluaa jakaa julkisesti. 
 
-Tässä oppaassa keskitymme seuraaviin sovelluksiin:
--	3D Model Importer
--	Lightfield Photo App 
--	HoloPlay Unity SDK
--	Leap Motion-kontrolleri 
+[MadeWith](https://madewith.lookingglassfactory.com/)-sivulla pääset myös testaamaan muiden käyttäjien julkaisemia sovelluksia ja quilt-kuvia.  
+
+#### Tässä oppaassa keskitymme seuraaviin sovelluksiin:
+-	[3D Model Importer](https://lookingglassfactory.com/devtools/3d-model-importer)
+-	[Lightfield Photo App](https://lookingglassfactory.com/devtools/lightfield-photo-app) 
+-	[HoloPlay Unity SDK](https://lookingglassfactory.com/devtools/holoplay-unity-plugin)
+-	[Leap Motion-kontrolleri](https://developer.leapmotion.com/setup/desktop)
+
