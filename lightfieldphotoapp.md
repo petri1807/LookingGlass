@@ -52,11 +52,11 @@ Tässä oppaassa käydään kädestä pitäen läpi vaiheet joilla voit itse luo
 
 ![](/Assets/LightfieldPhotoApp/Dia12.JPG)
 - Siirry kameranäkymään (Numpad 0). Jos mallisi on todella pieni, eikä näy viewportissa, laske kameraa alemmas Z-akselilla joko:
-  - rahaamalla Z-location arvoa vasemmalle kunnes malli tulee näkyviin
+  - rahaamalla Z-location arvoa vasemmalle, kunnes malli tulee näkyviin
   - liikuttamalla kameraa (G), lukitsemalla siirron Z-akselille (Z) ja liikuttamalla hiirtä taakse.
 
 ![](/Assets/LightfieldPhotoApp/Dia13.JPG)
-- Siirry kameranhallinta välilehdelle oikeasta laidasta ja muuta Focal Length-arvoa kunnes malli on kameran näkymän rajojen sisällä. Tämä arvo on kameroiden kulman kanssa tärkeä osa sitä miten malli esiintyy hologrammilasilla.
+- Siirry kameranhallinta välilehdelle oikeasta laidasta ja muuta Focal Length-arvoa, kunnes malli on kameran näkymän rajojen sisällä.
 
 ![](/Assets/LightfieldPhotoApp/Dia14.JPG)
 - Siirry takaisin Top Orthographic-näkymään (Numpad 7) ja tee linkitetty kopio kamerasta (Alt + D), lukita siirto X-akselille (X) ja siirrä kopiota hieman oikealle. Linkitetyllä kopiolla voimme myöhemmin muuttaa kameran asetuksia kuten Focal Length jolloin muutokset yhdessä kamerassa vaikuttavat kaikkiin kameroihin.
