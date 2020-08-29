@@ -63,10 +63,12 @@ Tässä oppaassa käydään kädestä pitäen läpi vaiheet joilla voit itse luo
 
 ![](/Assets/LightfieldPhotoApp/Dia15.JPG)
 - Toista viimeisin komento (Shift + R) kunnes sinulla on 45 kameraa. 
-Quilt-kuvia voi tehdä pienemmälläkin määrällä esim. testausta varten, mutta tällöin kokemus lasilla ei ole yhtä sulava.
+- Quilt-kuvia voi tehdä pienemmälläkin määrällä esim. testausta varten, mutta tällöin kokemus lasilla ei ole yhtä sulava.
 
 ![](/Assets/LightfieldPhotoApp/Dia16.JPG)
-- Ensimmäinen kamera täytyy nimetä uudelleen sillä myöhemmin kun renderöimme nämä kaikki kuvakulmat, tiedostonimet määritetään kameroiden nimien mukaan. Muuta oikealta ylhäältä Outliner-paneelista ”Camera”-objektin nimeksi ”Camera.000”. Tällöin se pysyy ensimmäinenä kuvana vasemmalta kun nämä tuodaan Lightfield Photo Appiin.
+- Ensimmäinen kamera täytyy nimetä uudelleen, sillä myöhemmin, kun renderöimme nämä kaikki kuvakulmat, tiedostonimet määritetään kameroiden nimien mukaan. 
+- Valitse vasemmalta ensimmäinen kamera, ja muuta sen nimeksi ”Camera.000” joko oikealta ylhäältä Outliner-paneelista, tai painamalla F2, joka avaa nimen muuttamisen.
+- Nimeämällä kameran oikein se pysyy ensimmäinenä kuvana vasemmalta kun nämä tuodaan Lightfield Photo Appiin.
 
 ![](/Assets/LightfieldPhotoApp/Dia17.JPG)
 - Korjataan kameroiden sijainnit. Ensimmäinen kamera on jo oikealla kohdalla, joten käytetään 3D kursoria apuna muiden siirtämiseen. Siirrä 3D kursori ensimmäisen kameran kohdalle (Shift + S, Cursor to Selected)
