@@ -55,4 +55,4 @@ Alla oleva kuva havainnollistaa miten nämä 45 eri näkökulmaa esitetään las
 -	**Oikealla** näkyy 2D-kuva jota kullekkin näkökulmalle esitetään. 
 -	**Vasemmalla** näkyy kaikista 45 kuvasta muodostettu ”Quilt”, jossa punainen laatikko havainnollistaa myös mikä kuva mistäkin näkökulmasta katsottuna näkyy.
 
-![Multiplex](/Assets/nultiplex.gif)
+![Multiplex](/Assets/multiplex.gif)
