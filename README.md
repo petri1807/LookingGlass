@@ -1,6 +1,6 @@
 # Looking Glass hologrammilasin opas kehittäjälle
 
-![Logo](/Assets/lgf-logo.png)
+![Looking Glass Factory logo](/Assets/lgf-logo.png)
 
 
 
@@ -27,7 +27,7 @@ Looking Glass on Looking Glass Factoryn kehittämä hologramminäyttö joka huij
 -	15.6” Pro (sisältää integroidun tietokoneen ja sivulle aukeavan kosketusnäytön)
 -	32” 8K Immersive Display
  
-![Kuva 1](/Assets/meet-the-looking-glass.jpg)
+![Meet the lookinng glass](/Assets/meet-the-looking-glass.jpg)
 *Looking Glass-laitteet vasemmalta alkaen: 8.9" / 15.6" / 32”*
 
 ## Kenelle tämä opas on tarkoitettu
@@ -64,3 +64,11 @@ Alla oleva kuva havainnollistaa miten nämä 45 eri näkökulmaa esitetään las
 -	**Vasemmalla** näkyy kaikista 45 kuvasta muodostettu ”Quilt”, jossa punainen laatikko havainnollistaa myös mikä kuva mistäkin näkökulmasta katsottuna näkyy.
 
 ![Multiplex](/Assets/multiplex.gif)
+
+Quilt tarkoittaa siis yhtä kuvatiedostoa jossa on tyypillisesti 5 kolumnia ja 9 riviä, yhteensä 45 itsenäistä kuvaa mallista eri kuvakulmista. Quiltin voi tehdä pienemmälläkin määrällä kuvia, mutta illuusion sulavuus kohdetta katsottaessa eri kuvakulmista saattaa kärsiä.
+
+Tähän samaan toimintaan jokainen lasille kehitetty sovellus pyrkii. Oli kyseessä sitten quilt-kuvien esitykseen tarkoitettu Lightfield Photo App, selaimella näytettävä sisältö tai Unity/Unreal pelimoottoreilla esitettävä interaktiivinen sisältö, kaikki nämä jakavat sisältönsä quilt-kuviin jotka sitten esitetään näytölle.
+
+Quilt-kuva lasilla. Kameran linssille näkyy yhtäaikaisesti 5-6 kuvaa vaihtelevalla voimakkuudella. Tällöin lasia katsellessa kumpikin silmä näkee usean eri kuvan yhtäaikaisesti luoden sulavan kokemuksen päätä liikutettaessa sivulta toiselle. 
+
+![On LKG](/Assets/on-lkg.gif)
