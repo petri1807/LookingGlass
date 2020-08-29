@@ -165,7 +165,7 @@ Sovelluksen voi ladata osoitteesta https://lookingglassfactory.com/devtools/3d-m
 | Quilt Resolution | Resoluution säätö. 8K on raskain pyörittää mutta näyttää parhaalta |
 | Optimization | Mallin optimointi. Joidenkin mallien kohdalla suorituskyky heikentyy tämän ollessa päällä. Käytä jos siitä on hyötyä | 
 | Post-processing | Depth of Field, Ambient Occlusion ja Bloom efektien aktivointi |
-| FPS-laskin | kertoo kuinka hyvin kyseinen malli pyörii |
+| FPS-laskin | Kertoo kuinka hyvin kyseinen malli pyörii |
 | Model Loading | Jos mallin tuominen epäonnistui sen suuren koon takia, aseta Timeout kohtaan suurempi arvo. Luku on 10–360 sekuntia kuinka kauan mallia sallitaan ladata |
 
 
