@@ -4,7 +4,7 @@
 
 
 
-## [Laitteeseen tutustuminen](#laitteeseen-tutustuminen)
+## [Laitteeseen tutustuminen -](#laitteeseen-tutustuminen)
 
 - [**Looking Glass Holographic Display**](#looking-glass-holographic-display)
 
@@ -18,7 +18,7 @@
 
 - [**Miten lasi toimii**](#miten-lasi-toimii)
 
-## [Sovellukset](#sovellukset)
+## [Sovellukset -](#sovellukset)
 
 - [**Lightfield Photo App**](#lightfield-photo-app)
 
