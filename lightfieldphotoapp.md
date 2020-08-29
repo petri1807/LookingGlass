@@ -128,16 +128,21 @@ Täältä voi myös muuttaa resoluutiota. Helppo tapa renderöidä suuremmalla t
 ## Kuvan rajaus ja tarkennus
 
 ![](/Assets/LightfieldPhotoApp/Dia29.JPG)
-- Valitse Set Cropping. Täältä voit hallita leikkausta ja tarkennusta. Raahaa kohdistusikkunaa painamalla ikkunan sisältä, skaalaa ikkunan kokoa raahaamalla sinisistä nurkista. Focus-sliderilla hallitset tarkennuksen kohtaa syvyyssunnassa. Reverse Image kääntää kuvat jos kuvien järjestys vahingossa menisi oikealta vasemmalle.
+- Valitse Set Cropping. Täältä voit hallita leikkausta ja tarkennusta. 
+- Raahaa kohdistusikkunaa painamalla ikkunan sisältä.
+- Skaalaa ikkunan kokoa raahaamalla sinisistä nurkista. 
+- Focus-sliderilla hallitset tarkennuksen kohtaa syvyyssunnassa, tai toisin sanoen Zero Parallax Planen sijaintia.
+- Reverse Image kääntää kuvien järjestyksen jos nimeämis järjestys vahingossa menisi oikealta vasemmalle.
 
 ## Quiltin tallennus
 
 ![](/Assets/LightfieldPhotoApp/Dia30.JPG)
 - Tallenna Quilt-kuva painamalla Save Quilt.
 
-Valmis Quilt näyttää tältä.
+![]()
+- Valmis Quilt näyttää tältä.
 
-Näitä voi avata samaan tapaan kun kuvasarjoja menemällä Quilts-osioon Lightfield Photo Appissa, mutta muokkaus ei enää onnistu.
+Quilt-kuvia voi avata menemällä Quilts-välilehdelle. Quilt kuvien avaus on huomattavasti nopeampaa, mutta muokkaus ei enää onnistu.
 
 Quilt-kuvia käyttämällä mallin teossa ei tarvitse murehtia vertexien määrästä tai muista rajoitteista. 
 
@@ -150,7 +155,6 @@ Parhaan tuloksen Blenderissä saa käyttämällä Cycles-rendermoottoria joka tu
 - Varmista että Render Engine on Cycles.
 - Jos koneessasi on erillinen näytönohjain, valitse Device kohdasta GPU Compute.
 - Sampling-menusta voit hallita sample määrää. Render valmiille kuvalle, Viewport livenä editorissa. Enemmän sampleja == parempi laatu mutta vie enemmän aikaa.
-
 
 ![](/Assets/LightfieldPhotoApp/Dia32.JPG)
 - Siirry Layer Properties-välilehdelle ja valitse Denoising Data 
@@ -166,7 +170,6 @@ Parhaan tuloksen Blenderissä saa käyttämällä Cycles-rendermoottoria joka tu
 ![](/Assets/LightfieldPhotoApp/Dia35.JPG)
 - 9. Yhdistä node kuten kuvassa, eli korvaa Image yhteys Noisy Imagella, ja yhdistä Denoising Normal  Normal sekä Denoising Albeido  Albeido
 10. Valmis. Voit tarkastella eroa vaihtamalla Composite nodeen yhdistyvää lähdettä.
-
 
 ![](/Assets/LightfieldPhotoApp/Dia36.JPG)
 - Denoiser vertailu
