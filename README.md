@@ -33,6 +33,7 @@
   - [Asetukset](#asetukset)
 
 - [**Holoplay Unity SDK**](#holoplay-unity-sdk)
+  - [Oman Unity-sovelluksen teko](/unity.md)
 
 ## Laitteeseen tutustuminen
 Tässä osiossa käydään lyhyesti läpi mistä laitteesta on kyse, kenelle tämä opas on tarkoitettu ja kuka tämän oppaan on kirjoittanut. 
@@ -192,4 +193,4 @@ Unity pelimoottori mahdollistaa interaktiivisten sovellusten kehittämisen holog
 
 Looking Glassin virallisilta sivuilta löytyy kattava ohjeistus plugarin käyttöön. https://docs.lookingglassfactory.com/Unity/
 
-[**Oman Unity-sovelluksen teko**](/unity.md) osiossa käydään läpi miten luot oman pelin hologrammilasille.
+[**Oman Unity-sovelluksen teko**](/unity.md) osiossa käydään läpi miten luot oman sovelluksen hologrammilasille.
