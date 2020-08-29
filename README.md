@@ -192,3 +192,4 @@ Unity pelimoottori mahdollistaa interaktiivisten sovellusten kehittämisen holog
 
 Looking Glassin virallisilta sivuilta löytyy kattava ohjeistus plugarin käyttöön. https://docs.lookingglassfactory.com/Unity/
 
+[**Oman Unity-sovelluksen teko**](/unity.md) osiossa käydään läpi miten luot oman pelin hologrammilasille.
