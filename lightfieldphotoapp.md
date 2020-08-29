@@ -2,24 +2,24 @@
 
 Tässä oppaassa käydään kädestä pitäen läpi vaiheet joilla voit itse luoda kuvasarjoja Lightfield Photo Appiin tuotavaksi, jossa niistä voi muokata ja tallentaa oman quilt-kuvan.
 
-### Tarvittavat asennukset
+## Tarvittavat asennukset
 
 - [**Blender**](https://blender.org) on ilmainen avoimen lähdekoodin 3D-ohjelmisto. Lataa uusin versio.
 - [**RenderBurst**](https://github.com/VertStretch/RenderBurst) -lisäosa blenderiin, joka mahdollistaa useiden kuvien renderöinnin automatisoidusti.
 - [**Lightfield Photo App**](https://lookingglassfactory.com/devtools/lightfield-photo-app) johon lopulta tuomme kuvat.
 
-### Vaiheet
--	[Mallin tuonti blenderiin](#mallin-tuonti-blenderiin)
--	[Kameroiden asettelu](#kameroiden-asettelu)
--	[RenderBurst lisäosan asennus](#renderburst-lisäosan-asennus)
--	[Renderöinti](#renderöinti)
--	[Kuvien tuonti Lightfield Photo Appiin](#kuvien-tuonti-lightfield-photo-appiin)
--	[Kuvan rajaus ja tarkennus](#kuvan-rajaus-ja-tarkennus)
--	[Quiltin tallennus](#quiltin-tallennus)
--	[Denoiserin eli kohinan poistimen käyttö Cycles-rendermoottorilla](#denoiserin-eli-kohinan-poistimen-käyttö-cycles-rendermoottorilla)
+## Vaiheet
+-	[**Mallin tuonti blenderiin**](#mallin-tuonti-blenderiin)
+-	[**Kameroiden asettelu**](#kameroiden-asettelu)
+-	[**RenderBurst lisäosan asennus**](#renderburst-lisäosan-asennus)
+-	[**Renderöinti**](#renderöinti)
+-	[**Kuvien tuonti Lightfield Photo Appiin**](#kuvien-tuonti-lightfield-photo-appiin)
+-	[**Kuvan rajaus ja tarkennus**](#kuvan-rajaus-ja-tarkennus)
+-	[**Quiltin tallennus**](#quiltin-tallennus)
+-	[**Denoiserin eli kohinan poistimen käyttö Cycles-rendermoottorilla**](#denoiserin-eli-kohinan-poistimen-käyttö-cycles-rendermoottorilla)
 
 
-### Mallin tuonti blenderiin
+## Mallin tuonti blenderiin
 
 ![](https://github.com/petri1807/LookingGlass/blob/master/Assets/LightfieldPhotoApp/Dia3.JPG)
 - Avaa Blender. Valitse kuutio (hiiren vasen) ja poista se (X, hiiren vasemmalla tai Enter vahvistat komennon)
@@ -30,7 +30,7 @@ Tässä oppaassa käydään kädestä pitäen läpi vaiheet joilla voit itse luo
 ![](https://github.com/petri1807/LookingGlass/blob/master/Assets/LightfieldPhotoApp/Dia5.JPG)
 - Valitse mallisi ja paina Import
 
-### Kameroiden asettelu
+## Kameroiden asettelu
 
 ![](https://github.com/petri1807/LookingGlass/blob/master/Assets/LightfieldPhotoApp/Dia6.JPG)
 - Mallin ilmestyy Viewporttiin. Valitse kamera (hiiren vasen) ja avaa sivupaneeli (N)
@@ -81,13 +81,13 @@ Quilt-kuvia voi tehdä pienemmälläkin määrällä esim. testausta varten, mut
 ![](/Assets/LightfieldPhotoApp/Dia21.JPG)
 - Nyt jos siirrymme Top Orthographic-näkymään (Numpad 7) ja aktivoimme Measure-työkalun, niin kameroiden pitäisi olla noin 50° kulmassa malliin nähden.
 
-### RenderBurst lisäosan asennus
+## RenderBurst lisäosan asennus
 
 Lataa [Render Burst](https://github.com/VertStretch/RenderBurst) lisäosa Blenderiin. Linkistä löytyy ohjeet asennukseen.
 
 Render Burst helpottaa renderöintiä automatisoimalla usean kameran kuvan renderöinnin ja tallentamisen yhden napin painalluksen taakse. Säästät aikaa sekä hermojasi. Ilman Render Burstia jokainen kuva tulisi yksitellen renderöidä, tallentaa kovalevylle numerojärjestykessä oikealla nimellä, ja aktiivista kameraa pitäisi vaihtaa seuraavaan.
 
-### Renderöinti
+## Renderöinti
 
 ![](/Assets/LightfieldPhotoApp/Dia22.JPG)
 - Varmista että kohteesi on valaistu. Vaihda Shading mode renderöityyn tilaan (viewportin oikean yläkulman viimeinen kuvake, tai paina Z ja valitse Rendered). Testauksessa kannattaa käyttää Eevee-rendermoottoria. Tämän pitäisi olla normaalisti valittuna, mutta tarkista se silti Render Properties-välilehdeltä.
@@ -107,7 +107,7 @@ Täältä voi myös muuttaa resoluutiota. Helppo tapa renderöidä suuremmalla t
 ![](/Assets/LightfieldPhotoApp/Dia25.JPG)
 - Kuvasarja on valmis tuotavaksi Lightfield Photo Appiin.
 
-### Kuvien tuonti Lightfield Photo Appiin
+## Kuvien tuonti Lightfield Photo Appiin
 
 ![](https://github.com/petri1807/LookingGlass/blob/master/Assets/LightfieldPhotoApp/lpa_avaus.PNG)
 - Avaa Lightfield Photo App
@@ -125,12 +125,12 @@ Täältä voi myös muuttaa resoluutiota. Helppo tapa renderöidä suuremmalla t
 ![](/Assets/LightfieldPhotoApp/Dia28.JPG)
 - Valitse kaikki kuvat (Ctrl + A) ja avaa
 
-### Kuvan rajaus ja tarkennus
+## Kuvan rajaus ja tarkennus
 
 ![](/Assets/LightfieldPhotoApp/Dia29.JPG)
 - Valitse Set Cropping. Täältä voit hallita leikkausta ja tarkennusta. Raahaa kohdistusikkunaa painamalla ikkunan sisältä, skaalaa ikkunan kokoa raahaamalla sinisistä nurkista. Focus-sliderilla hallitset tarkennuksen kohtaa syvyyssunnassa. Reverse Image kääntää kuvat jos kuvien järjestys vahingossa menisi oikealta vasemmalle.
 
-### Quiltin tallennus
+## Quiltin tallennus
 
 ![](/Assets/LightfieldPhotoApp/Dia30.JPG)
 - Tallenna Quilt-kuva painamalla Save Quilt.
@@ -143,7 +143,7 @@ Quilt-kuvia käyttämällä mallin teossa ei tarvitse murehtia vertexien määr�
 
 Parhaan tuloksen Blenderissä saa käyttämällä Cycles-rendermoottoria joka tuottaa realistisen path tracing valaistuksen. Tämä kuitenkin vie huomattavasti enemmän aikaa renderöinnissä, jonka takia denoiserin käyttö on suositeltavaa
 
-### Denoiserin eli kohinan poistimen käyttö Cycles-rendermoottorilla
+## Denoiserin eli kohinan poistimen käyttö Cycles-rendermoottorilla
 
 ![](/Assets/LightfieldPhotoApp/Dia31.JPG)
 **Intel Open Image Denoiserin käyttö**
