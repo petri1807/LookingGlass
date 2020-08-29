@@ -24,6 +24,12 @@
 
 - [**3D Model Importer**](#3d-model-importer)
 
+  - [Tuetut tiedostomuodot](#tuetut-tiedostomuodot)
+  
+  - [Kontrollit](#kontrollit)
+  
+  - [Asetukset](#asetukset)
+
 - [**Holoplay Unity SDK**](#holoplay-unity-sdk)
 
 ## Laitteenseen tutustuminen
@@ -126,7 +132,7 @@ Sovelluksen voi ladata osoitteesta https://lookingglassfactory.com/devtools/3d-m
 
 3D Model Importer mahdollistaa 3D mallin esittämisen hologrammilasilla helposti ja nopeasti. Mallia voi ohjailla hiirellä tai Leap Motion-liikeohjaimella. Valaistusta voi muokata itse melko rajallisesti. Käytössä on vain kaksi valonlähdettä, kohdistettu valo sekä ”ambient” valaistus.
 
-**Tuetut tiedostomuodot**
+#### Tuetut tiedostomuodot
 | Tiedostopääte | Tukee animonteja |
 |---|---|
 | .glb | ✔ |
