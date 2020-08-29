@@ -186,4 +186,9 @@ Sovelluksen voi ladata osoitteesta https://lookingglassfactory.com/devtools/3d-m
 
 ### Holoplay Unity SDK
 
-....
+Pluginin voi ladata osoitteesta https://lookingglassfactory.com/devtools/holoplay-unity-plugin
+
+Unity pelimoottori mahdollistaa interaktiivisten sovellusten kehittämisen hologrammilasille. Unity mahdollistaa yhden tai useamman Looking Glassin käytön samanaikaisesti. Leap Motion-liiketunnistusohjain voidaan yhdistää käytettäväksi sovelluksessa. Esimerkkejä Unityllä kehitetyistä sovelluksista voit löytää Looking Glass Libraryn sovelluskirjastosta sekä virallisista sovelluksista. Edellä mainitut Lightfield Photo App sekä 3D Model Importer ovat Unityllä kehitettyjä sovelluksia. 
+
+Looking Glassin virallisilta sivuilta löytyy kattava ohjeistus plugarin käyttöön. https://docs.lookingglassfactory.com/Unity/
+
