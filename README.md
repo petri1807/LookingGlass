@@ -146,7 +146,6 @@ Sovelluksen voi ladata osoitteesta https://lookingglassfactory.com/devtools/3d-m
 |---|---|
 | Load Model | Lataa malli |
 | Remove Model | Poista malli |
-
 | **OBJECT** |  |
 | Metallic / Specular / Vertex Color | Shaderin valinta |
 | Render Back Faces | Näyttää malleissa pinnat myös ns. väärätä puolelta. Jos valinta ei ole päällä, takapuolelta katsottuna pinnasta näkee läpi. Eli facen normal suunta määrittää tämän |
