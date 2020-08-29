@@ -57,13 +57,13 @@ Looking Glass on Looking Glass Factoryn kehittämä hologramminäyttö joka huij
 *Looking Glass-laitteet vasemmalta alkaen: 8.9" / 15.6" / 32”*
 
 ### Kuka tämän oppaan kirjoitti
-Hei, olen Petri, tietojenkäsittelyn toisen vuoden opiskelija, suuntauksena ohjelmistokehitys. Suoritin 15 opintopisteen (405h) harjoittelun 11/2019 - 08/2020 välisenä aikana Hämeen Ammattikorkeakoulun Smart-tutkimusyksikössä tutustuen hologrammilasin käyttöön ja sisällön kehitykseen.
+Olen Petri Lindholm, opiskelen tietojenkäsittelyä kolmatta vuotta Hämeen ammattikorkeakoulussa. Suoritin 15 opintopisteen (405h) harjoittelun 11/2019 - 08/2020 välisenä aikana HAMK Smart-tutkimusyksikössä tutustuen hologrammilasin käyttöön ja sisällön kehitykseen.
 
 ### Kenelle tämä opas on tarkoitettu
 Tämän käsikirjan tarkoitus on opastaa tulevia kehittäjiä tuomaan valmiita tai itse tehtyjä 3D-malleja hologrammilasille, sekä selvittää mitä asioita pitää ottaa huomioon omia malleja luodessa. Kehittäjältä odotetaan aiempaa kokemusta 3D-mallinnuksesta uutta sisältöä luodessa. Ohjelmistona käytössä Blender 2.83. Lataa uusin versio [blenderin kotisivuilta](https://blender.org) 
 
 ### Kytkennät
-Laitteen liitännät ovat erittäin yksinkertaiset. Pakkauksessa tulee mukana yksi HDMI ja yksi USB-kaapeli. Näiden liitännät löytyvät lasin takapuolelta. Kun yhdistät nämä tietokoneeseen, avaa näytön asetukset ja asetaa Looking Glassin resoluutioksi 2560 x 1600 ja skaalaus 100%.
+Laitteen liitännät ovat erittäin yksinkertaiset. Pakkauksessa tulee mukana yksi HDMI ja yksi USB-kaapeli. Näiden liitännät löytyvät lasin takapuolelta. Kun yhdistät nämä tietokoneeseen, avaa näytön asetukset ja aseta Looking Glassin resoluutioksi 2560 x 1600 ja skaalaus 100%.
 Joidenkin sovellusten kohdalla kolmen näytön käyttäminen samaan aikaan aiheutti ongelmia. Itselläni Lightfield Photo App ei suostunut avautumaan Looking Glassilla kolmantena näyttönä. Jos tällaista esiintyy kohdallasi, käy ottamassa näytön asetuksista toinen näyttö pois käytöstä, avaa sovellus lasille, ja tämän jälkeen voit ottaa toisen näytön uudelleen käyttöön.
 
 ### Tarvittavien sovellusten asennus
