@@ -134,7 +134,7 @@ Sovelluksen voi ladata osoitteesta https://lookingglassfactory.com/devtools/3d-m
 | Hiiren rulla | Zoomaus lähemmäs/kauemmas |
 | Hiiren oikea | Mallin liikuttaminen vaaka/pystysuunnassa |
 | Hiiren vasen tuplaklikkaus | Aseta kiintopiste |
-| Vasen/oikea nuolinäppäimet | Edellinen/seuraava malli |
+| Vasen/oikea nuolinäppäimet näytöllä tai näppäimistöllä | Edellinen/seuraava malli |
 | Neliönäppäin näytöllä | Näyttää/piilottaa menun |
 | Ympyränäppäin näytöllä | Pyöritä mallia |
 
