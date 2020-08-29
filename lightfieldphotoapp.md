@@ -108,7 +108,7 @@ Täältä voi myös muuttaa resoluutiota. Helppo tapa renderöidä suuremmalla t
 Esimerkiksi
 | % | Resoluutio |
 |---|---|
-| 200% | 3840 x 2160|
+| 200% | 3840 x 2160 |
 | 100% | 1920 x 1080 |
 | 50% | 960 x 540 |
 
@@ -143,7 +143,7 @@ Esimerkiksi
 - Raahaa kohdistusikkunaa painamalla ikkunan sisältä.
 - Skaalaa ikkunan kokoa raahaamalla sinisistä nurkista. 
 - Focus-sliderilla hallitset tarkennuksen kohtaa syvyyssunnassa, tai toisin sanoen Zero Parallax Planen sijaintia.
-- Reverse Image kääntää kuvien järjestyksen jos nimeämis järjestys vahingossa menisi oikealta vasemmalle.
+- Reverse Image kääntää kuvien järjestyksen, jos nimeämis järjestys vahingossa menisi oikealta vasemmalle.
 
 ## Quiltin tallennus
 
@@ -172,37 +172,37 @@ Quilt-kuvia voi avata menemällä Quilts-välilehdelle. Quilt kuvien avaus on hu
 
 Quilt-kuvia käyttämällä mallin teossa ei tarvitse murehtia vertexien määrästä tai muista rajoitteista. 
 
-Parhaan tuloksen Blenderissä saa käyttämällä Cycles-rendermoottoria joka tuottaa realistisen path tracing valaistuksen. Tämä kuitenkin vie huomattavasti enemmän aikaa renderöinnissä, jonka takia denoiserin käyttö on suositeltavaa
+Parhaan tuloksen Blenderissä saa käyttämällä Cycles-rendermoottoria, joka tuottaa realistisen path tracing valaistuksen. Tämä kuitenkin vie huomattavasti enemmän aikaa renderöinnissä, jonka takia denoiserin käyttö on suositeltavaa.
 
 ## Denoiserin eli kohinan poistimen käyttö Cycles-rendermoottorilla
 
 ![](/Assets/LightfieldPhotoApp/Dia31.JPG)
 **Intel Open Image Denoiserin käyttö**
-- Varmista että Render Engine on Cycles.
+- Valitse Render Engine-valikosta Cycles.
 - Jos koneessasi on erillinen näytönohjain, valitse Device kohdasta GPU Compute.
 - Sampling-menusta voit hallita sample määrää. Render valmiille kuvalle, Viewport livenä editorissa. Enemmän sampleja == parempi laatu mutta vie enemmän aikaa.
 
 ![](/Assets/LightfieldPhotoApp/Dia32.JPG)
-- Siirry Layer Properties-välilehdelle ja valitse Denoising Data 
+- Siirry Layer Properties-välilehdelle ja valitse Denoising Data.
 
 ![](/Assets/LightfieldPhotoApp/Dia33.JPG)
-- Siirry Compositing-workspaceen ylhäältä
-- Valitse Use Nodes
+- Siirry Compositing-workspaceen ylhäältä.
+- Valitse Use Nodes.
 
 ![](/Assets/LightfieldPhotoApp/Dia34.JPG)
-- Lisää Filter -> Denoise node ja raahaa se Render Layers ja Composite nodejen väliin
-- Renderöi kuva. Vasen yläkulma, Render -> Render Image
+- Lisää Filter -> Denoise node ja raahaa se Render Layers, sekä Composite nodejen väliin.
+- Renderöi kuva. Vasen yläkulma, Render -> Render Image.
 
 ![](/Assets/LightfieldPhotoApp/Dia35.JPG)
-- Yhdistä node kuten kuvassa, eli korvaa Image yhteys Noisy Imagella, ja yhdistä Denoising Normal -> Normal sekä Denoising Albeido -> Albeido
+- Yhdistä node kuten kuvassa, eli korvaa Image yhteys Noisy Imagella ja yhdistä Denoising Normal -> Normal, sekä Denoising Albeido -> Albeido.
 - Valmis. Voit tarkastella eroa vaihtamalla Composite nodeen yhdistyvää lähdettä.
 
 ### Denoiser vertailu
 ![](/Assets/LightfieldPhotoApp/Dia36.JPG)
 
 
-Denoisen ollessa käytössä jokainen kuva käy filtterin läpi ennen tallennusta. RenderBurstilla renderöidän tämä siis tarvitsee tehdä vain kerran, ja kaikki kuvat käsitellään automaattisesti.
+Denoisen ollessa käytössä, jokainen kuva käy filtterin läpi, ennen tallennusta. RenderBurstilla renderöiden, tämä tarvitsee tehdä vain kerran ja kaikki kuvat käsitellään automaattisesti.
 
-Denoise toimii pelkästään Cyclesin kanssa. Jos käytät Eevee-rendermoottoria muista muuttaa Render Layers-Composite yhteys alkuperäiseen muotoon tai ota Use Nodes pois päältä.
+Denoise toimii pelkästään Cyclesin kanssa. Jos käytät Eevee-rendermoottoria, muista muuttaa Render Layers-Composite yhteys alkuperäiseen muotoon, tai ota Use Nodes pois päältä.
 
-Käytettävien samplejen määrä on laadun ja nopeuden tasapainottelua. Yksinkertaisissa kohteissa voidaan käyttää hyvin matalia lukuja ilman että laatu kärsii huomattavasti. Lasi jonka läpi heijastetaan valoa on hyvä esimerkki kohteesta joka saattaa vaatia verrattaen suuren määrän sampleja näyttääkseen hyvältä.
+Käytettävien samplejen määrä on laadun ja nopeuden tasapainottelua. Yksinkertaisissa kohteissa voidaan käyttää hyvin matalia lukuja, ilman että laatu kärsii huomattavasti. Lasi, jonka läpi heijastetaan valoa, on hyvä esimerkki kohteesta, joka saattaa vaatia verrattaen suuren määrän sampleja näyttääkseen hyvältä.
