@@ -140,7 +140,7 @@ Sovelluksen voi ladata osoitteesta https://lookingglassfactory.com/devtools/3d-m
 
 #### Asetukset
 
-![Asetukset-kuva]()
+![Asetukset-kuva](/Assets/importersettings.png)
 
 | Nimi | Kuvaus |
 |---|---|
