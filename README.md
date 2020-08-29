@@ -31,9 +31,11 @@ Laitteen liitännät ovat erittäin yksinkertaiset. Pakkauksessa tulee mukana yk
 Joidenkin sovellusten kohdalla kolmen näytön käyttäminen samaan aikaan aiheutti ongelmia. Itselläni Lightfield Photo App ei suostunut avautumaan Looking Glassilla kolmantena näyttönä. Jos tällaista esiintyy kohdallasi, käy ottamassa näytön asetuksista toinen näyttö pois käytöstä, avaa sovellus lasille, ja tämän jälkeen voit ottaa toisen näytön uudelleen käyttöön.
 
 ## Tarvittavien sovellusten asennus
-[DevTools](https://lookingglassfactory.com/devtools)-sivulta löytyvät kaikki viralliset lasille kehitetyt sovellukset sekä lisäosat. 
+[DevTools](https://lookingglassfactory.com/devtools)-sivulta löytyvät kaikki viralliset lasille kehitetyt sovellukset sekä lisäosat.
+
 [HoloPlay Service](https://lookingglassfactory.com/software/holoplay-service) täytyy asentaa jotta lasi toimii ja sille pystyy kehittämään sisältöä.
-Looking Glass Librarysta pääset asentamaan muiden käyttäjien julkaisemia sovelluksia. [MadeWith](https://madewith.lookingglassfactory.com/)-sivulla pääset myös testaamaan muiden käyttäjien julkaisemia sovelluksia ja quilt-kuvia.  
+
+[Looking Glass Library](https://lookingglassfactory.com/devtools/looking-glass-library) on sovelluskirjasto josta löytyy muiden käyttäjien julkaisemia sovelluksia, ja sinne voi myös lisätä omia sovelluksia jos niitä haluaa jakaa julkisesti. [MadeWith](https://madewith.lookingglassfactory.com/)-sivulla pääset myös testaamaan muiden käyttäjien julkaisemia sovelluksia ja quilt-kuvia.  
 
 Tässä oppaassa keskitymme seuraaviin sovelluksiin:
 -	3D Model Importer
