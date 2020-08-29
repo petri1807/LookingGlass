@@ -38,7 +38,7 @@ Looking Glass on Looking Glass Factoryn kehittämä hologramminäyttö joka huij
 *Looking Glass-laitteet vasemmalta alkaen: 8.9" / 15.6" / 32”*
 
 ### Kuka tämän oppaan kirjoitti
-Hei, olen Petri, tietojenkäsittelyn toisen vuoden opiskelija, suuntauksena ohjelmistokehitys. Suoritin 15 opintopisteen (405h) harjoittelun Hämeen Ammattikorkeakoulun Smart-tutkimusyksikössä tutustuen hologrammilasin käyttöön ja sisällön kehitykseen.
+Hei, olen Petri, tietojenkäsittelyn toisen vuoden opiskelija, suuntauksena ohjelmistokehitys. Suoritin 15 opintopisteen (405h) harjoittelun 11/2019 - 08/2020 välisenä aikana Hämeen Ammattikorkeakoulun Smart-tutkimusyksikössä tutustuen hologrammilasin käyttöön ja sisällön kehitykseen.
 
 ### Kenelle tämä opas on tarkoitettu
 Tämän käsikirjan tarkoitus on opastaa tulevia kehittäjiä tuomaan valmiita tai itse tehtyjä 3D-malleja hologrammilasille, sekä selvittää mitä asioita pitää ottaa huomioon omia malleja luodessa. Kehittäjältä odotetaan aiempaa kokemusta 3D-mallinnuksesta uutta sisältöä luodessa. Ohjelmistona käytössä Blender 2.83. Lataa uusin versio [blenderin kotisivuilta](https://blender.org) 
