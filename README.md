@@ -161,7 +161,6 @@ Sovelluksen voi ladata osoitteesta https://lookingglassfactory.com/devtools/3d-m
 | Directional / Ambient Intensity | Valon voimakkuus kohdistettuna / ympäristöstä |
 | POST-PROCESSING | |
 | DoF / AO / Bloom Intensity | Depth of Field, Ambient Occlusion ja Bloom efektien voimakkuus |
-
 | **QUALITY SETTINGS** | |
 | Quilt Resolution | Resoluution säätö. 8K on raskain pyörittää mutta näyttää parhaalta |
 | Optimization | Mallin optimointi. Joidenkin mallien kohdalla suorituskyky heikentyy tämän ollessa päällä. Käytä jos siitä on hyötyä | 
