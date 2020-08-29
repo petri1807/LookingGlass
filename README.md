@@ -8,6 +8,13 @@
 
 [**Kenelle tämä opas on tarkoitettu**](https://github.com/petri1807/LookingGlass#kenelle-t%C3%A4m%C3%A4-opas-on-tarkoitettu)
 
+[**Kytkennät**](https://github.com/petri1807/LookingGlass#kytkenn%C3%A4t)
+
+[**Tarvittavien sovellusten asennus**](https://github.com/petri1807/LookingGlass#tarvittavien-sovellusten-asennus)
+
+[**https://github.com/petri1807/LookingGlass#miten-lasi-toimii**](https://github.com/petri1807/LookingGlass#miten-lasi-toimii)
+
+
 
 
 ## Johdanto
@@ -49,6 +56,7 @@ Joidenkin sovellusten kohdalla kolmen näytön käyttäminen samaan aikaan aiheu
 Hologrammilasin toiminta perustuu näytölle esitettävien 45 eri kuvakulman esittämisestä polarisoivan filtterin läpi, joka huijaa katsojan näköaistia havainnoimaan kolmiulotteisia objekteja lasin sisällä kahdella tavalla. 
 -	Vaihtamalla katsojan näkökulmaa esitettävästä kohteesta vaakasuunassa
 -	Esittämällä eri näkökulmia kullekkin silmälle
+
 Alla oleva kuva havainnollistaa miten nämä 45 eri näkökulmaa esitetään lasille.
 -	**Keskellä** Looking Glass lintuperspektiivistä. Laatikko esittää lasin sisällä olevaa tilaa. Lasiin yhdistyvät mustat viivat havainnollistavat mistä näkökulmasta vasemmalla ja oikealla esitettävä kuva näkyy.
 -	Looking Glassin **sisällä** on kuvassa esitettävä 3D-malli
