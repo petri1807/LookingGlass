@@ -34,7 +34,7 @@
 
 - [**Holoplay Unity SDK**](#holoplay-unity-sdk)
 
-## Laitteenseen tutustuminen
+## Laitteeseen tutustuminen
 Tässä osiossa käydään lyhyesti läpi mistä laitteesta on kyse, kenelle tämä opas on tarkoitettu ja kuka tämän oppaan on kirjoittanut. 
 
 ### Looking Glass Holographic Display
