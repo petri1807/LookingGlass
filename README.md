@@ -38,9 +38,9 @@
 ## Laitteeseen tutustuminen
 Tässä osiossa käydään lyhyesti läpi mistä laitteesta on kyse, kenelle tämä opas on tarkoitettu ja kuka tämän oppaan on kirjoittanut. 
 
-![Looking Glass Factoryn kotisivut](https://lookingglassfactory.com/)
+[Looking Glass Factoryn kotisivut](https://lookingglassfactory.com/)
 
-![Looking Glassin virallinen dokumentaatio](https://docs.lookingglassfactory.com/)
+[Looking Glassin virallinen dokumentaatio](https://docs.lookingglassfactory.com/)
 
 Kuvia lainattu virallisilta sivuilta.
 
