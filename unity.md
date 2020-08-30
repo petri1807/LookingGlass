@@ -37,32 +37,43 @@ Tässä osiossa käymme läpi vaiheet jotta onnistut tekemään ensimmäisen Uni
 - Paina Apply Changes
 
 ![](/Assets/unity/Capture6.png)
-- 
+- Poista Main Camera
 
 ![](/Assets/unity/Capture7.png)
-- 
+- Lisää Holoplay Capture Hierarchy-ikkunaan, hiiren oikea -> Holoplay Capture
 
 ![](/Assets/unity/Capture8.png)
-- 
+- Lisää Project-ikkunaan uusi kansio malleille, hiiren oikea -> Create -> Folder
+- Tuo mallisi tänne, hiiren oikea -> Import New Asset
 
 ![](/Assets/unity/Capture9.PNG)
-- 
+- Valitse mallisi ja tekstuurit jos niitä on
 
 ![](/Assets/unity/Capture10.PNG)
-- 
+- Raahaa mallisi Hierachy-ikkunaan
+- Korjaa kohteen koko ja sijainti niin, että se mahtuu Holoplay Capturen sisään.
+- Holoplay Capturen sisällä oleva violetti kohta on ns. Zero Parallax Plane jossa kohteet ovat tarkimmillaan.
+- Testaa lasilla livenä painamalla Ctrl + E, tai yläpalkista Holoplay -> Toggle Preview, tai Inspector ikkunasta Holoplay Capture valittuna Toggle Preview
+- Jos mitään ei ilmesty lasille, tarkista että Target Display on asetettu oikein.
 
 ![](/Assets/unity/Capture11.png)
-- 
+- Valitse Holoplay Capture
+- Mene Project-ikkunassa Holoplay/Scripts kansioon
+- Raahaa OrbitControl-tiedosto Inspector ikkunaan Add Componentin alle, eli yhdistä skripti Holoplay Captureen
+- Mene Holoplay/Prefabs kansioon
+- Raahaa 3D Cursor prefab Hierarchy-ikkunaan
 
 ![](/Assets/unity/Capture12.png)
-- 
+- Valitse Holoplay Capture, ja avaa Inspector ikkunasta Quilt Settings
+- Valitse resoluutio asetus jota haluat käyttää. Tämä ei vaikuta preview-näkymään
 
 ![](/Assets/unity/Capture13.png)
-- 
+- Rakennetaan sovelluksestasi ajettava versio. Mene ylävalikosta File -> Build Settings
 
 ![](/Assets/unity/Capture14.png)
-- 
+- Valite alusta jolle haluat sovelluksesi rakentaa, ja paina Build.
+- Valitse kansio johon tiedostot tallennetaan.
 
 ![](/Assets/unity/Capture15.png)
-- 
+- Nyt voit ajaa sovelluksesi .exe-tiedostosta.
 
