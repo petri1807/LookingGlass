@@ -198,7 +198,7 @@ Parhaan tuloksen Blenderissä saa käyttämällä Cycles-rendermoottoria, joka t
 - Valmis. Voit tarkastella eroa vaihtamalla Composite nodeen yhdistyvää lähdettä.
 
 ### Denoiser vertailu
-![](/Assets/LightfieldPhotoApp/denoiser.JPG)
+![Denoise](/Assets/LightfieldPhotoApp/denoiser.jpg)
 
 
 Denoisen ollessa käytössä, jokainen kuva käy filtterin läpi, ennen tallennusta. RenderBurstilla renderöiden, tämä tarvitsee tehdä vain kerran ja kaikki kuvat käsitellään automaattisesti.
