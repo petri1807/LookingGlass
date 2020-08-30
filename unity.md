@@ -57,12 +57,13 @@ Tässä osiossa käymme läpi vaiheet jotta onnistut tekemään ensimmäisen Uni
 - Jos mitään ei ilmesty lasille, tarkista että Target Display on asetettu oikein.
 
 ![](/Assets/unity/Capture11.png)
-- Lisätään sovellukseen skripti jolla voimme ohjata Holoplay Capturea. Pystymme liikuttamaan kameraa, zoomaamaan sisään ja ulos, vaihtamaan kiintopistettä ja niin edelleen. 
+- Lisätään sovellukseen skripti jolla voimme ohjata Holoplay Capturea. Pystymme liikuttamaan kameraa, zoomaamaan sisään ja ulos, vaihtamaan kiintopistettä ja niin edelleen.
 - Valitse Holoplay Capture.
 - Mene Project-ikkunassa Holoplay/Scripts kansioon.
 - Raahaa OrbitControl-tiedosto Inspector ikkunaan Add Componentin alle, eli yhdistä skripti Holoplay Captureen.
 - Mene Holoplay/Prefabs kansioon.
 - Raahaa 3D Cursor prefab Hierarchy-ikkunaan.
+- Tutustu tarkemmin OrbitControl-skriptiin ![täältä](https://docs.lookingglassfactory.com/Unity/Scripts/OrbitControl/).
 
 ![](/Assets/unity/Capture12.png)
 - Valitse Holoplay Capture, ja avaa Inspector ikkunasta Quilt Settings.
