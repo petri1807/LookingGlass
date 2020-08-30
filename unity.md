@@ -63,7 +63,7 @@ Tässä osiossa käymme läpi vaiheet jotta onnistut tekemään ensimmäisen Uni
 - Raahaa OrbitControl-tiedosto Inspector ikkunaan Add Componentin alle, eli yhdistä skripti Holoplay Captureen.
 - Mene Holoplay/Prefabs kansioon.
 - Raahaa 3D Cursor prefab Hierarchy-ikkunaan.
-- Tutustu tarkemmin OrbitControl-skriptiin ![täältä](https://docs.lookingglassfactory.com/Unity/Scripts/OrbitControl/).
+- Tutustu tarkemmin OrbitControl-skriptiin osoitteessa https://docs.lookingglassfactory.com/Unity/Scripts/OrbitControl/
 
 ![](/Assets/unity/Capture12.png)
 - Valitse Holoplay Capture, ja avaa Inspector ikkunasta Quilt Settings.
