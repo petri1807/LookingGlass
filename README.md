@@ -42,8 +42,6 @@ Tässä osiossa käydään lyhyesti läpi mistä laitteesta on kyse, kenelle tä
 
 [Looking Glassin virallinen dokumentaatio](https://docs.lookingglassfactory.com/)
 
-<a href="http://example.com/" target="_blank">Hello, world!</a>
-
 Kuvia lainattu virallisilta sivuilta.
 
 ### Looking Glass Holographic Display
