@@ -32,13 +32,13 @@ Tässä osiossa käymme läpi vaiheet jotta onnistut tekemään ensimmäisen Uni
 ![](/Assets/unity/Capture5.PNG)
 - 
 
-![](/Assets/unity/Capture6.PNG)
+![](/Assets/unity/Capture6.png)
 - 
 
-![](/Assets/unity/Capture7.PNG)
+![](/Assets/unity/Capture7.png)
 - 
 
-![](/Assets/unity/Capture8.PNG)
+![](/Assets/unity/Capture8.png)
 - 
 
 ![](/Assets/unity/Capture9.PNG)
@@ -47,18 +47,18 @@ Tässä osiossa käymme läpi vaiheet jotta onnistut tekemään ensimmäisen Uni
 ![](/Assets/unity/Capture10.PNG)
 - 
 
-![](/Assets/unity/Capture11.PNG)
+![](/Assets/unity/Capture11.png)
 - 
 
-![](/Assets/unity/Capture12.PNG)
+![](/Assets/unity/Capture12.png)
 - 
 
-![](/Assets/unity/Capture13.PNG)
+![](/Assets/unity/Capture13.png)
 - 
 
-![](/Assets/unity/Capture14.PNG)
+![](/Assets/unity/Capture14.png)
 - 
 
-![](/Assets/unity/Capture15.PNG)
+![](/Assets/unity/Capture15.png)
 - 
 
