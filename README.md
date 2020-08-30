@@ -188,14 +188,19 @@ Sovelluksen voi ladata osoitteesta https://lookingglassfactory.com/devtools/3d-m
 | Optimization | Mallin optimointi. Joidenkin mallien kohdalla suorituskyky heikentyy tämän ollessa päällä. Käytä jos siitä on hyötyä | 
 | Post-processing | Depth of Field, Ambient Occlusion ja Bloom efektien aktivointi |
 | FPS-laskin | Kertoo kuinka hyvin kyseinen malli pyörii |
-| Model Loading | Jos mallin tuominen epäonnistui sen suuren koon takia, aseta Timeout kohtaan suurempi arvo. Luku on 10–360 sekuntia kuinka kauan mallia sallitaan ladata |
+| Model Loading Timeout | Katkaisee mallin lataamisen asetetun sekunttimäärän jälkeen. Nosta arvoa jos mallisi lataus katkaistaan |
 
 
 ### Holoplay Unity SDK
 
 Pluginin voi ladata osoitteesta https://lookingglassfactory.com/devtools/holoplay-unity-plugin
 
-Unity pelimoottori mahdollistaa interaktiivisten sovellusten kehittämisen hologrammilasille. Unity mahdollistaa yhden tai useamman Looking Glassin käytön samanaikaisesti. Leap Motion-liiketunnistusohjain voidaan yhdistää käytettäväksi sovelluksessa. Esimerkkejä Unityllä kehitetyistä sovelluksista voit löytää Looking Glass Libraryn sovelluskirjastosta sekä virallisista sovelluksista. Edellä mainitut Lightfield Photo App sekä 3D Model Importer ovat Unityllä kehitettyjä sovelluksia. 
+Unityn pelimoottorilla voi kehittää omia sovelluksia tai pelejä Looking Glassille. Lisää Holoplay Capture-kamera peliisi ja tuo se eloon hologrammina. 
+
+- Unity mahdollistaa yhden tai useamman Looking Glassin käytön samanaikaisesti.
+- Leap Motion-liiketunnistusohjain voidaan yhdistää käytettäväksi sovelluksessa.
+
+Esimerkkejä Unityllä kehitetyistä sovelluksista voit löytää Looking Glass Libraryn sovelluskirjastosta sekä virallisista sovelluksista. Edellä mainitut Lightfield Photo App sekä 3D Model Importer ovat Unityllä kehitettyjä sovelluksia. 
 
 Looking Glassin virallisilta sivuilta löytyy kattava ohjeistus plugarin käyttöön. https://docs.lookingglassfactory.com/Unity/
 
