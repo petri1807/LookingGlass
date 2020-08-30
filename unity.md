@@ -3,9 +3,11 @@
 Tässä osiossa käymme läpi vaiheet jotta onnistut tekemään ensimmäisen Unityllä kehitetyn sovelluksesi Looking Glassille.
 
 ## Vaiheet
-- a
-- b
-- c
+- [**Projektin luonti**](#projektin-luonti)
+- [**Tuo Holoplay SDK projektiisi**](#tuo-holoplay-sdk-projektiisi)
+- [**Lisää Holoplay Capture ja mallit**](#lisää-holoplay-capture-ja-mallit)
+- [**Lisää sovellukseen toiminnallisuutta**](#lisää-sovellukseen-toiminnallisuutta)
+- [**Rakenna sovelluksesta executable versio**](#rakenna-sovelluksesta-executable-versio)
 
 ## Tarvittavat lataukset
 
@@ -21,6 +23,8 @@ Tässä osiossa käymme läpi vaiheet jotta onnistut tekemään ensimmäisen Uni
 - Nimeä projekti ja valitse tallennuskansio
 - Paina Create
 
+### Tuo Holoplay SDK projektiisi
+
 ![](/Assets/unity/Capture2.PNG)
 - Tuo HoloPlay SDK projektiin valikosta Assets -> Import Package -> Custom Package
 
@@ -35,6 +39,8 @@ Tässä osiossa käymme läpi vaiheet jotta onnistut tekemään ensimmäisen Uni
 ![](/Assets/unity/Capture5.PNG)
 - Unity ehdottaa käyttämään tiettyjä projektiasetuksia Holoplayn kanssa.
 - Paina Apply Changes
+
+### Lisää Holoplay Capture ja mallit
 
 ![](/Assets/unity/Capture6.png)
 - Poista Main Camera
@@ -56,6 +62,8 @@ Tässä osiossa käymme läpi vaiheet jotta onnistut tekemään ensimmäisen Uni
 - Testaa lasilla livenä painamalla Ctrl + E, tai yläpalkista Holoplay -> Toggle Preview, tai Inspector ikkunasta Holoplay Capture valittuna Toggle Preview.
 - Jos mitään ei ilmesty lasille, tarkista että Target Display on asetettu oikein.
 
+### Lisää sovellukseen toiminnallisuutta
+
 ![](/Assets/unity/Capture11.png)
 - Lisätään sovellukseen skripti jolla voimme ohjata Holoplay Capturea. Pystymme liikuttamaan kameraa, zoomaamaan sisään ja ulos, vaihtamaan kiintopistettä ja niin edelleen.
 - Valitse Holoplay Capture.
@@ -64,6 +72,8 @@ Tässä osiossa käymme läpi vaiheet jotta onnistut tekemään ensimmäisen Uni
 - Mene Holoplay/Prefabs kansioon.
 - Raahaa 3D Cursor prefab Hierarchy-ikkunaan.
 - Tutustu tarkemmin OrbitControl-skriptiin osoitteessa https://docs.lookingglassfactory.com/Unity/Scripts/OrbitControl/
+
+### Rakenna sovelluksesta executable versio
 
 ![](/Assets/unity/Capture12.png)
 - Valitse Holoplay Capture, ja avaa Inspector ikkunasta Quilt Settings.
