@@ -103,9 +103,8 @@ RenderBurst helpottaa renderöintiä automatisoimalla usean kameran kuvan render
 ![](/Assets/LightfieldPhotoApp/Dia23.JPG)
 - Render Burst vaatii tallennuskansion johon kuvat tallennetaan. Avaa Output Properties-välilehti ja valitse Output kohdasta kansio johon haluat kuvasi tallentaa. 
 
-Täältä voi myös muuttaa resoluutiota. Helppo tapa renderöidä suuremmalla tai pienemmällä resoluutiolla on vaihtaa Resolution % arvoa. 
+Täältä voi myös muuttaa resoluutiota ja tiedostomuotoa. Helppo tapa renderöidä suuremmalla tai pienemmällä resoluutiolla on vaihtaa Resolution % arvoa. 
 
-Esimerkiksi
 | % | Resoluutio |
 |---|---|
 | 200% | 3840 x 2160 |
