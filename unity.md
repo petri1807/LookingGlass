@@ -8,7 +8,7 @@ Tässä osiossa käymme läpi vaiheet jotta onnistut tekemään ensimmäisen Uni
 - [**Lisää Holoplay Capture ja mallit**](#lisää-holoplay-capture-ja-mallit)
 - [**Lisää sovellukseen toiminnallisuutta**](#lisää-sovellukseen-toiminnallisuutta)
 - [**Rakenna sovelluksesta executable versio**](#rakenna-sovelluksesta-executable-versio)
-- [**Leap Motion + Unity**](#leap-motion-+-unity)
+- [**Leap Motion + Unity**](#leap-motion--unity)
 
 ## Tarvittavat lataukset
 
