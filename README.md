@@ -211,9 +211,9 @@ Looking Glassin virallisilta sivuilta löytyy kattava ohjeistus plugarin käytt�
 
 ### Leap Motion -liiketunnistusohjain
 
-Leap Motion -liiketunnistusohjain mahdollista käsien käyttämisen ohjaimena sen erittäin tarkan optisen sensorin avulla. 
+Leap Motion -liiketunnistusohjain mahdollista käsien käyttämisen ohjaimena sen erittäin tarkan optisen sensorin avulla. Leap Motionia voi käyttää esimerkiksi 3D Model Importerin kanssa mallin hallitsemiseen.
 
-![Leap Motion gif](https://docs.lookingglassfactory.com/Unity/images/leap-lkg.gif)
+![Leap Motion gif](/Assets/leap-lkg.gif)
 
 [Leap Motionin virallisilta sivuilta](https://developer.leapmotion.com/) voi lukea tarkemmin laitteen toiminnasta.
 
