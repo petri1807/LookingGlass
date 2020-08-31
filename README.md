@@ -34,6 +34,9 @@
 
 - [**Holoplay Unity SDK**](#holoplay-unity-sdk)
   - [Oman Unity-sovelluksen teko](/unity.md)
+  
+- [**Leap Motion -liiketunnistusohjain**]()
+  - [Leap Motion Unity-projektissa](/leapmotion.md)
 
 ## Laitteeseen tutustuminen
 Tässä osiossa käydään lyhyesti läpi mistä laitteesta on kyse, kenelle tämä opas on tarkoitettu ja kuka tämän oppaan on kirjoittanut. 
@@ -205,3 +208,13 @@ Esimerkkejä Unityllä kehitetyistä sovelluksista voit löytää Looking Glass 
 Looking Glassin virallisilta sivuilta löytyy kattava ohjeistus plugarin käyttöön. https://docs.lookingglassfactory.com/Unity/
 
 [**Oman Unity-sovelluksen teko**](/unity.md) osiossa käydään läpi miten luot oman sovelluksen hologrammilasille.
+
+### Leap Motion -liiketunnistusohjain
+
+Leap Motion -liiketunnistusohjain mahdollista käsien käyttämisen ohjaimena sen erittäin tarkan optisen sensorin avulla. 
+
+![Leap Motion gif](https://docs.lookingglassfactory.com/Unity/images/leap-lkg.gif)
+
+[Leap Motionin virallisilta sivuilta](https://developer.leapmotion.com/) voi lukea tarkemmin laitteen toiminnasta.
+
+[**Leap Motion Unity-projektissa**](/leapmotion.md) osiossa käydään lyhyesti läpi miten voit tuoda Leap Motionin omaan sovellukseesi.
