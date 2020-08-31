@@ -132,11 +132,11 @@ Ohjeeseen sisältyvät vaiheet:
 
 Hyvät puolet:
 -	Realistisen sisällön tuottaminen on suhteellisen helppoa.
--	Ei rajoituksia mallin tai valaistuksen kompleksisuuden puolesta. Toisin sanoen malli tai skene voi olla kuinka raskas tahansa, 
+-	Ei rajoituksia mallin tai valaistuksen kompleksisuuden puolesta. Toisin sanoen malli tai skene voi olla kuinka raskas tahansa.
 
 Huonot puolet
 -	Staattinen sisältö. Videoiden toisto ei ole mahdollista. 
--	Renderöintiin kuluva aika. 
+-	Renderöintiin kuluva aika. Pienikin muutos, mitä ei voi kroppauksella tai tarkennuksella korjata, vaatii kaikkien kuvien renderöinnin uudelleen.
 
 ### 3D Model Importer
 
