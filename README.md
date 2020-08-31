@@ -217,4 +217,6 @@ Leap Motion -liiketunnistusohjain mahdollista käsien käyttämisen ohjaimena se
 
 [Leap Motionin virallisilta sivuilta](https://developer.leapmotion.com/) voi lukea tarkemmin laitteen toiminnasta.
 
+Lataa ja asenna [Leap Motion ajuri](https://developer.leapmotion.com/setup/desktop) käyttääksesi ohjainta.
+
 [**Leap Motion Unity-projektissa**](/leapmotion.md) osiossa käydään lyhyesti läpi miten voit tuoda Leap Motionin omaan sovellukseesi.
