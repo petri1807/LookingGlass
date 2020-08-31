@@ -35,7 +35,7 @@
 - [**Holoplay Unity SDK**](#holoplay-unity-sdk)
   - [Oman Unity-sovelluksen teko](/unity.md)
   
-- [**Leap Motion -liiketunnistusohjain**]()
+- [**Leap Motion -liiketunnistusohjain**](#leap-motion--liiketunnistusohjain)
   - [Leap Motion Unity-projektissa](/leapmotion.md)
 
 ## Laitteeseen tutustuminen
