@@ -200,7 +200,7 @@ Parhaan tuloksen Blenderissä saa käyttämällä Cycles-rendermoottoria, joka t
 ![Denoise](/Assets/LightfieldPhotoApp/denoiser.jpg)
 *Samples: 5 Denoise: Off | Samples: 5 Denoise: On*
 
-Denoisen ollessa käytössä, jokainen kuva käy filtterin läpi, ennen tallennusta. RenderBurstilla renderöiden, tämä tarvitsee tehdä vain kerran ja kaikki kuvat käsitellään automaattisesti.
+Denoisen ollessa käytössä, jokainen kuva käy filtterin läpi, ennen tallennusta. RenderBurstia käyttäessä tämä tarvitsee tehdä vain kerran ja kaikki kuvat käsitellään automaattisesti. 45 kuvan renderöinnissä voit säästää useita tunteja käyttämällä denoiseria saadaksesi laadukkaita kuvia. 
 
 Denoise toimii pelkästään Cyclesin kanssa. Jos käytät Eevee-rendermoottoria, muista muuttaa Render Layers-Composite yhteys alkuperäiseen muotoon, tai ota Use Nodes pois päältä.
 
