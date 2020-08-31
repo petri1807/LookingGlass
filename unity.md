@@ -8,6 +8,7 @@ Tässä osiossa käymme läpi vaiheet jotta onnistut tekemään ensimmäisen Uni
 - [**Lisää Holoplay Capture ja mallit**](#lisää-holoplay-capture-ja-mallit)
 - [**Lisää sovellukseen toiminnallisuutta**](#lisää-sovellukseen-toiminnallisuutta)
 - [**Rakenna sovelluksesta executable versio**](#rakenna-sovelluksesta-executable-versio)
+- [**Leap Motion + Unity**](#leap-motion-+-unity)
 
 ## Tarvittavat lataukset
 
@@ -89,3 +90,12 @@ Tässä osiossa käymme läpi vaiheet jotta onnistut tekemään ensimmäisen Uni
 ![](/Assets/unity/Capture15.png)
 - Nyt voit ajaa sovelluksesi .exe-tiedostosta.
 
+### Leap Motion + Unity
+
+[Looking Glassin ohjeistus](https://docs.lookingglassfactory.com/Unity/Leap/) Leap Motionin käyttöön Unityssä.
+
+Leap Motionin [Unity Modules](https://leapmotion.github.io/UnityModules/index.html)-sivulta löytyy erittäin kattava ohjeistus ohjaimen käyttöön Unityssä.
+
+[Leap Motion ajuri](https://developer.leapmotion.com/setup/desktop)
+[Leap Motion Unity Core Assets](https://github.com/leapmotion/UnityModules/releases/tag/Release-CoreAsset-4.4.0) paketti Unityyn.
+[Looking Glassin demopaketista](http://docfiles.lookingglassfactory.com/LKG%2BLEAP.unitypackage) löytyy esimerkki Leap Motionin käyttämiseen.
