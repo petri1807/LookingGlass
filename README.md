@@ -36,7 +36,7 @@
   - [Oman Unity-sovelluksen teko](/unity.md)
   
 - [**Leap Motion -liiketunnistusohjain**](#leap-motion--liiketunnistusohjain)
-  - [Leap Motion Unity-projektissa](/unity.md#leap-motion-+-unity)
+  - [Leap Motion Unity-projektissa](/unity.md#leap-motion--unity)
 
 ## Laitteeseen tutustuminen
 Tässä osiossa käydään lyhyesti läpi mistä laitteesta on kyse, kenelle tämä opas on tarkoitettu ja kuka tämän oppaan on kirjoittanut. 
@@ -219,4 +219,4 @@ Leap Motion -liiketunnistusohjain mahdollista käsien käyttämisen ohjaimena se
 
 Lataa ja asenna [Leap Motion ajuri](https://developer.leapmotion.com/setup/desktop) käyttääksesi ohjainta.
 
-[**Oman Unity-sovelluksen teko**](/unity.md#leap-motion-+-unity) -osion lopusta löytyy linkit ohjeisiin ja ladattaviin tiedostoihin jos haluat tuoda Leap Motionin omaan projektiisi.
+[**Oman Unity-sovelluksen teko**](/unity.md#leap-motion--unity) -osion lopusta löytyy linkit ohjeisiin ja ladattaviin tiedostoihin jos haluat tuoda Leap Motionin omaan projektiisi.
